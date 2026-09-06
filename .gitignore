@@ -1,0 +1,29 @@
+# 临时文件
+*.tmp
+*.log
+*.swp
+*~
+
+# 备份文件
+*.bak
+*.backup
+
+# OS文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.iml
+
+# 工作目录（保留最终版本即可）
+.omc/
+.codex/
+.collab/
+.loopx/
+交付成果_20260904/
+分析输出/
+
+# 监控脚本临时输出
+monitor_output.txt
