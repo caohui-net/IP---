@@ -1,0 +1,2733 @@
+    ©°©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©´
+    ©¦               ? MobaXterm Professional Edition v25.4 ?               ©¦
+    ©¦               (SSH client, X server and network tools)               ©¦
+    ©¦                                                                      ©¦
+    ©¦ ? SSH session to admin@10.0.0.1                                      ©¦
+    ©¦   ? Direct SSH      :  ?                                             ©¦
+    ©¦   ? SSH compression :  ?                                             ©¦
+    ©¦   ? SSH-browser     :  ?                                             ©¦
+    ©¦   ? X11-forwarding  :  ?  (disabled or not supported by server)      ©¦
+    ©¦                                                                      ©¦
+    ©¦ ? For more info, ctrl+click on help or visit our website.            ©¦
+    ©¸©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¼
+
+
+
+HNRPC_CORE-Switch>en
+
+Password:**********
+
+HNRPC_CORE-Switch#sh ru
+
+Building configuration...
+Current configuration: 80441 bytes
+
+version N18000_RGOS 11.0(4)B57, Release(07212600)
+hostname HNRPC_CORE-Switch
+!
+errdisable recovery interval 300
+snmp-server if-index persist
+address-manage
+ match ip 10.203.0.0 255.255.252.0 vlan 3683
+ match ip 10.203.4.0 255.255.252.0 vlan 3684
+ match ip 10.203.8.0 255.255.252.0 vlan 3685
+ match ip 10.203.12.0 255.255.252.0 vlan 3686
+ match ip 10.203.16.0 255.255.240.0 vlan 3687
+ match ip 10.204.1.0 255.255.255.0 vlan 3714
+ match ip 10.204.2.0 255.255.255.0 vlan 3715
+ match ip 10.204.3.0 255.255.255.0 vlan 3716
+ match ip 10.204.4.0 255.255.255.0 vlan 3717
+ match ip 10.204.5.0 255.255.255.0 vlan 3718
+ match ip 10.204.6.0 255.255.255.0 vlan 3719
+ match ip 10.204.7.0 255.255.255.0 vlan 3720
+ match ip 10.204.8.0 255.255.255.0 vlan 3721
+ match ip 10.204.9.0 255.255.255.0 vlan 3722
+ match ip 10.204.10.0 255.255.255.0 vlan 3723
+ match ip 10.204.11.0 255.255.255.0 vlan 3724
+ match ip 10.204.12.0 255.255.255.0 vlan 3725
+ match ip 10.204.13.0 255.255.255.0 vlan 3726
+ match ip 10.204.14.0 255.255.255.0 vlan 3727
+ match ip 10.204.15.0 255.255.255.0 vlan 3728
+ match ip 10.204.16.0 255.255.255.0 vlan 3729
+ match ip 10.204.17.0 255.255.255.0 vlan 3730
+ match ip 10.204.18.0 255.255.255.0 vlan 3731
+ match ip 10.204.19.0 255.255.255.0 vlan 3732
+ match ip 10.204.20.0 255.255.255.0 vlan 3733
+ match ip 10.12.0.0 255.255.248.0 vlan 3326
+ match ip 10.12.8.0 255.255.248.0 vlan 3327
+ match ip 10.12.16.0 255.255.248.0 vlan 3328
+ match ip 10.12.24.0 255.255.248.0 vlan 3329
+ match ip 10.12.32.0 255.255.248.0 vlan 3330
+ match ip 10.12.40.0 255.255.248.0 vlan 3331
+ match ip 10.12.48.0 255.255.248.0 vlan 3332
+ match ip 10.12.56.0 255.255.248.0 vlan 3333
+ match ip 10.12.72.0 255.255.248.0 vlan 3334
+ match ip 10.12.80.0 255.255.248.0 vlan 3335
+ match ip 10.12.88.0 255.255.248.0 vlan 3336
+ match ip 10.12.96.0 255.255.248.0 vlan 3337
+ match ip 10.12.104.0 255.255.248.0 vlan 3338
+ match ip 10.12.112.0 255.255.248.0 vlan 3339
+ match ip 10.12.120.0 255.255.248.0 vlan 3340
+ match ip 10.12.128.0 255.255.248.0 vlan 3341
+ match ip 10.12.136.0 255.255.254.0 vlan 3342
+ match ip 10.13.0.0 255.255.240.0 vlan 3389
+ match ip 10.13.32.0 255.255.240.0 vlan 3390
+ match ip 10.13.48.0 255.255.240.0 vlan 3391
+ match ip 10.13.64.0 255.255.240.0 vlan 3392
+ match ip 10.13.80.0 255.255.240.0 vlan 3393
+ match ip 10.13.96.0 255.255.240.0 vlan 3394
+ match ip 10.13.112.0 255.255.240.0 vlan 3395
+ match ip 10.13.128.0 255.255.240.0 vlan 3396
+ match ip 10.13.144.0 255.255.240.0 vlan 3397
+ match ip 10.13.160.0 255.255.240.0 vlan 3398
+ match ip 10.13.176.0 255.255.240.0 vlan 3399
+ match ip 10.13.192.0 255.255.240.0 vlan 3400
+ match ip 10.13.208.0 255.255.240.0 vlan 3401
+ match ip 10.13.224.0 255.255.240.0 vlan 3402
+ match ip 10.13.240.0 255.255.252.0 vlan 3403
+ match ip 10.13.244.0 255.255.252.0 vlan 3404
+ match ip 10.12.138.0 255.255.254.0 vlan 3405
+ match ip 10.11.1.0 255.255.255.0 vlan 3200
+ match ip 10.11.2.0 255.255.255.0 vlan 3201
+ match ip 10.11.3.0 255.255.255.0 vlan 3202
+ match ip 10.11.4.0 255.255.254.0 vlan 3203
+ match ip 10.11.6.0 255.255.255.0 vlan 3204
+ match ip 10.11.8.0 255.255.254.0 vlan 3205
+ match ip 10.11.10.0 255.255.254.0 vlan 3206
+ match ip 10.11.12.0 255.255.254.0 vlan 3207
+ match ip 10.11.16.0 255.255.252.0 vlan 3208
+ match ip 10.11.20.0 255.255.252.0 vlan 3209
+ match ip 10.11.24.0 255.255.255.0 vlan 3210
+ match ip 10.11.25.0 255.255.255.0 vlan 3211
+ match ip 10.11.26.0 255.255.254.0 vlan 3212
+ match ip 10.11.28.0 255.255.255.0 vlan 3213
+ match ip 10.11.29.0 255.255.255.0 vlan 3214
+ match ip 10.11.30.0 255.255.255.0 vlan 3215
+ match ip 10.11.48.0 255.255.240.0 vlan 3215
+ match ip 10.11.64.0 255.255.240.0 vlan 3216
+ match ip 10.11.80.0 255.255.240.0 vlan 3217
+ match ip 10.11.96.0 255.255.240.0 vlan 3218
+ match ip 10.11.112.0 255.255.240.0 vlan 3219
+ match ip 10.11.128.0 255.255.240.0 vlan 3220
+ match ip 10.11.144.0 255.255.240.0 vlan 3221
+ match ip 10.11.160.0 255.255.240.0 vlan 3222
+ match ip 10.11.176.0 255.255.240.0 vlan 3223
+ match ip 10.11.192.0 255.255.240.0 vlan 3224
+ match ip 10.11.208.0 255.255.240.0 vlan 3225
+ match ip 10.11.224.0 255.255.240.0 vlan 3226
+ match ip 10.11.36.0 255.255.252.0 vlan 3228
+ match ip 10.11.240.0 255.255.252.0 vlan 3227
+ match ip 10.11.244.0 255.255.252.0 vlan 3229
+ match ip 10.16.0.0 255.255.240.0 vlan 3263
+ match ip 10.16.16.0 255.255.240.0 vlan 3264
+ match ip 10.16.32.0 255.255.240.0 vlan 3265
+ match ip 10.16.48.0 255.255.240.0 vlan 3266
+ match ip 10.16.64.0 255.255.240.0 vlan 3267
+ match ip 10.16.80.0 255.255.240.0 vlan 3268
+ match ip 10.16.96.0 255.255.240.0 vlan 3269
+ match ip 10.16.112.0 255.255.240.0 vlan 3270
+ match ip 10.16.128.0 255.255.240.0 vlan 3271
+ match ip 10.16.144.0 255.255.240.0 vlan 3272
+ match ip 10.16.160.0 255.255.240.0 vlan 3273
+ match ip 10.16.176.0 255.255.240.0 vlan 3274
+ match ip 10.16.192.0 255.255.240.0 vlan 3275
+ match ip 10.16.208.0 255.255.240.0 vlan 3276
+ match ip 10.16.224.0 255.255.240.0 vlan 3277
+ match ip 10.11.252.0 255.255.252.0 vlan 3230
+ match ip 10.204.24.0 255.255.255.0 vlan 3737
+ match ip 10.204.25.0 255.255.255.0 vlan 3738
+ match ip loose
+!
+aaa authorization ip-auth-mode mixed
+!
+route-map user permit 10
+ match ip address jiaoyuwang-user
+ set ip next-hop 210.43.47.237
+!
+route-map user permit 20
+ match ip address xiaoyuanwang-user
+ set ip next-hop 10.0.0.2
+!
+ip access-list extended BDS
+ 2147483647 permit ip any any
+!
+ip access-list extended RG-ONC-NETWORK
+ 8190 permit udp any any eq bootps
+ 8191 permit udp any any eq bootpc
+ 1843200 deny ip 192.168.103.0 0.0.0.255 192.168.100.0 0.0.0.255
+ 1843201 deny ip 192.168.100.0 0.0.0.255 192.168.103.0 0.0.0.255
+!
+ip access-list extended aa
+ 10 permit icmp any host 172.16.16.254
+ 20 permit ip any any
+!
+ip access-list extended bb
+ 10 permit icmp host 172.16.16.254 any
+ 20 permit ip any any
+!
+ip access-list extended jiaoyuwang-user
+ 10 permit ip 218.196.4.0 0.0.0.15 any
+ 9999 deny ip any any
+!
+ip access-list extended test
+ 10 permit icmp host 10.0.0.2 host 10.0.0.1
+ 20 permit icmp host 10.0.0.1 host 10.0.0.2
+ 30 permit ip any any
+!
+ip access-list extended test-1
+ 10 permit tcp host 10.5.32.52 host 1.2.3.4
+ 20 permit tcp host 10.5.32.52 host 1.1.1.1
+ 30 permit ip any any
+!
+ip access-list extended test-2
+ 10 permit tcp host 10.5.32.52 host 1.2.3.4
+ 20 permit ip any any
+!
+ip access-list extended test-down-in
+ 10 permit icmp host 172.16.12.36 host 10.0.0.2
+ 20 permit icmp host 10.0.0.2 host 172.16.12.36
+ 100 permit ip any any
+!
+ip access-list extended test-down-out
+ 10 permit icmp host 172.16.12.36 host 10.0.0.2
+ 20 permit icmp host 10.0.0.2 host 172.16.12.36
+ 100 permit ip any any
+!
+ip access-list extended xiaoyuanwang-user
+ 20 permit ip any any
+!
+expert access-list extended RG-ONC-FREE
+ 20 permit ip any host fc3f.dbad.831f any any
+ 30 permit ip any host 001b.a9e8.e9e5 any any
+ 40 permit ip any host 00e0.6608.5f43 any any
+ 50 permit ip any host 30e1.71bb.a6d0 any any
+ 60 permit ip any host bcd1.776c.fe15 any any
+ 70 permit ip any host 0023.2481.99db any any
+ 80 permit ip any host 000e.c6c8.bdd3 any any
+ 8001 permit arp any any
+ 8193 permit ip 192.168.103.0 0.0.0.255 any any any
+ 8203 permit ip any host 98be.dc86.7a0e any any
+ 8213 permit ip any host e440.9700.8767 any any
+ 8223 permit ip any host 3a36.753d.2d6c any any
+ 8233 permit ip any host d45d.64b7.431e any any
+ 8243 permit ip any host 9060.f195.f4dc any any
+ 8253 permit ip any host 0007.3e9e.804e any any
+ 8263 permit ip any host f293.d618.f5ae any any
+!
+ip access-list counter test
+!
+ip access-list counter test-1
+!
+ip access-list counter test-2
+!
+ip access-list counter test-down-in
+!
+ip access-list counter test-down-out
+ip access-group RG-ONC-NETWORK network-policy
+ip access-group BDS in
+security global access-group RG-ONC-FREE
+ip dhcp snooping arp-detect
+ip dhcp snooping check-giaddr
+ip dhcp snooping
+!
+tpd state 0
+!
+ip portal source-interface Loopback 0
+http redirect direct-site 172.17.12.251
+http redirect direct-site 172.17.12.249
+web-auth dhcp-check
+web-auth station-move auto
+web-auth station-move info-update
+web-auth direct-host 10.1.9.250
+web-auth direct-host 10.1.1.250
+web-auth direct-host 10.1.1.249
+web-auth direct-host 10.1.1.248
+web-auth direct-host 10.1.1.247
+web-auth direct-host 10.1.1.246
+web-auth direct-host 10.1.1.245
+web-auth direct-host 10.1.6.240
+web-auth direct-host 10.1.6.239
+web-auth direct-host 10.1.6.237
+web-auth direct-host 10.1.4.239
+web-auth direct-host 10.1.2.250
+web-auth direct-host 10.1.4.238
+web-auth direct-host 10.1.4.250
+web-auth direct-host 10.1.2.249
+web-auth direct-host 10.1.10.250
+web-auth direct-host 10.1.6.249
+web-auth direct-host 10.1.26.247
+web-auth direct-host 10.1.27.250
+web-auth direct-host 10.1.27.249
+web-auth direct-host 10.1.27.248
+web-auth direct-host 10.1.28.250
+web-auth direct-host 10.1.6.248
+web-auth direct-host 10.1.1.243
+web-auth direct-host 10.1.8.250
+web-auth direct-host 10.1.26.250
+web-auth direct-host 10.1.8.5
+web-auth direct-host 10.1.8.251
+web-auth direct-host 172.16.12.0 255.255.255.0
+web-auth direct-host 172.17.12.13
+web-auth direct-host 172.16.12.28
+web-auth direct-host 10.1.3.249
+web-auth direct-host 10.1.112.250
+web-auth direct-host 10.1.8.249
+web-auth direct-host 10.1.1.253
+web-auth direct-host 10.1.2.9
+web-auth direct-host 10.204.1.201
+web-auth direct-host 10.204.2.2
+web-auth direct-host 10.204.14.37
+web-auth direct-host 10.204.10.227
+web-auth direct-host 10.204.17.251
+web-auth direct-host 10.204.17.252
+web-auth direct-host 10.204.1.43
+web-auth direct-host 10.204.1.47
+web-auth direct-host 10.255.2.117
+web-auth direct-host 10.204.2.117
+web-auth direct-host 10.204.2.220
+web-auth direct-host 10.204.5.18
+web-auth direct-host 10.204.1.226
+web-auth direct-host 10.204.14.41
+web-auth direct-host 10.204.25.6
+web-auth direct-host 10.204.14.54
+web-auth direct-host 10.203.8.72
+web-auth direct-host 10.204.14.56
+web-auth direct-host 10.204.14.51
+web-auth direct-host 10.204.14.59
+web-auth direct-host 10.204.14.62
+web-auth direct-host 10.204.14.63
+web-auth direct-host 10.204.15.13
+web-auth direct-host 10.204.15.14
+web-auth direct-host 10.204.20.57
+web-auth direct-host 10.204.20.61
+web-auth direct-host 10.204.20.60
+web-auth direct-host 10.204.20.59
+web-auth direct-host 10.204.20.13
+web-auth direct-host 10.204.15.7
+web-auth direct-host 10.204.15.12
+web-auth direct-host 10.204.15.8
+web-auth direct-host 10.204.14.29
+web-auth portal key ruijie
+web-auth update-interval 190
+web-auth portal-check interval 3 timeout 3 retransmit 10
+web-auth radius-escape
+web-auth portal-escape nokick
+!
+web-auth template eportalv2
+ ip 172.17.12.249
+ url http://172.17.12.249/eportal/index.jsp
+ authentication default
+ accounting default
+!
+username admin privilege 15 password 7 07360d3d05110757421b5a
+username ruijie password 7 072c16261f1b2225401a5f71
+username sdn password 7 072c16261f1b2225401a5f72
+!
+aaa new-model
+aaa local authentication lockout-time 1
+!
+aaa accounting update periodic 30
+aaa accounting update
+aaa accounting network default start-stop group SAM
+aaa authentication login default local
+aaa authentication dot1x default group SAM
+aaa authentication web-auth default group SAM
+no aaa log enable
+!
+cwmp
+!
+ipv6 dhcp pool ruijie
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ prefix-delegation pool ruijie
+!
+ipv6 dhcp pool vlan2
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:22::/64
+!
+ipv6 dhcp pool vlan3
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:23::/64
+!
+ipv6 dhcp pool vlan4
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:24::/64
+!
+ipv6 dhcp pool vlan5
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:25::/64
+!
+ipv6 dhcp pool vlan6
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:26::/64
+!
+ipv6 dhcp pool vlan7
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:27::/64
+!
+ipv6 dhcp pool vlan8
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:28::/64
+!
+ipv6 dhcp pool vlan9
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:29::/64
+!
+ipv6 dhcp pool vlan10
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:30::/64
+!
+ipv6 dhcp pool vlan11
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:31::/64
+!
+ipv6 dhcp pool vlan12
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 240e:780:3110:2:400::/70
+!
+ipv6 dhcp pool vlan13
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:33::/64
+!
+ipv6 dhcp pool vlan14
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:34::/64
+!
+ipv6 dhcp pool vlan15
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:35::/64
+!
+ipv6 dhcp pool vlan16
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:36::/64
+!
+ipv6 dhcp pool vlan17
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:37::/64
+!
+ipv6 dhcp pool vlan18
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:38::/64
+!
+ipv6 dhcp pool vlan19
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:39::/64
+!
+ipv6 dhcp pool vlan20
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:40::/64
+!
+ipv6 dhcp pool vlan21
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:41::/64
+!
+ipv6 dhcp pool vlan22
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:42::/64
+!
+ipv6 dhcp pool vlan23
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:43::/64
+!
+ipv6 dhcp pool vlan30
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:44::/64
+!
+ipv6 dhcp pool vlan88
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:45::/64
+!
+ipv6 dhcp pool vlan98
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:46::/64
+!
+ipv6 dhcp pool vlan99
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:47::/64
+!
+ipv6 dhcp pool vlan100
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:48::/64
+!
+ipv6 dhcp pool vlan1002
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:49::/64
+!
+ipv6 dhcp pool vlan1717
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:50::/64
+!
+ipv6 dhcp pool vlan1718
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:51::/64
+!
+ipv6 dhcp pool vlan1720
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:52::/64
+!
+ipv6 dhcp pool vlan4001
+ domain-name www.ruijie.com.cn
+ dns-server 2003::1
+ iana-address prefix 2001:250:4416:18::/64
+!
+ipv6 dhcp pool vlan111
+!
+ipv6 local pool ruijie 2001::/64 64
+service dhcp
+ip dhcp server arp-detect
+ip dhcp excluded-address 172.16.8.78
+ip dhcp excluded-address 172.16.8.84
+ip dhcp excluded-address 192.168.100.254
+ip dhcp excluded-address 192.168.101.254
+ip dhcp excluded-address 192.168.102.254
+ip dhcp excluded-address 172.16.12.201
+ip dhcp excluded-address 10.11.8.150 10.11.8.240
+!
+ip dhcp pool ap-pool
+ option 138 ip 10.0.0.3
+ network 10.0.4.0 255.255.252.0
+ default-router 10.0.7.254
+!
+ip dhcp pool sushe-pool
+ lease 0 2 0
+ network 10.12.0.0 255.252.0.0
+ dns-server 114.114.114.114 8.8.8.8 172.17.12.13
+ default-router 10.15.255.254
+!
+ip dhcp pool bangong-pool
+ lease 0 2 0
+ network 10.11.0.0 255.255.0.0
+ dns-server 172.17.12.13
+ default-router 10.11.255.254
+!
+ip dhcp pool vlan-172.16.12.0
+ lease 0 4 0
+ network 172.16.12.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.12.254
+!
+ip dhcp pool vlan-172.16.5.0
+ lease 0 4 0
+ network 172.16.5.0 255.255.255.0
+ dns-server 172.17.12.13 8.8.8.8
+ default-router 172.16.5.254
+!
+ip dhcp pool vlan-172.16.9.0
+ lease 0 4 0
+ network 172.16.9.0 255.255.255.0
+ dns-server 172.17.12.13 8.8.8.8
+ default-router 172.16.9.254
+!
+ip dhcp pool vlan-172.16.17.0
+ lease 0 4 0
+ network 172.16.17.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.17.254
+!
+ip dhcp pool vlan-172.16.18.0
+ lease 0 4 0
+ network 172.16.18.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.18.254
+!
+ip dhcp pool vlan-172.16.19.0
+ lease 0 4 0
+ network 172.16.19.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.19.254
+!
+ip dhcp pool vlan-172.16.21.0
+ lease 0 4 0
+ network 172.16.21.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.21.254
+!
+ip dhcp pool vlan-172.16.22.0
+ lease 0 4 0
+ network 172.16.22.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.22.254
+!
+ip dhcp pool vlan-172.23.129.0
+ lease 0 4 0
+ network 172.23.129.0 255.255.255.0
+ dns-server 172.17.12.13 8.8.8.8
+ default-router 172.23.129.254
+!
+ip dhcp pool vlan-172.16.88.0
+ lease 0 4 0
+ network 172.16.88.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.88.254
+!
+ip dhcp pool vlan-172.16.100.0
+ lease 0 4 0
+ network 172.16.100.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.100.254
+!
+ip dhcp pool vlan-172.17.17.0
+ lease 0 4 0
+ network 172.17.17.0 255.255.255.0
+ dns-server 172.17.12.13 8.8.8.8
+ default-router 172.17.17.254
+!
+ip dhcp pool vlan-172.17.18.0
+ lease 0 4 0
+ network 172.17.18.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.17.18.254
+!
+ip dhcp pool vlan-172.17.20.0
+ lease 0 4 0
+ network 172.17.20.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.17.20.254
+!
+ip dhcp pool xuesheng-pool
+ lease 0 2 0
+ network 10.16.0.0 255.254.0.0
+ dns-server 114.114.114.114 8.8.8.8 172.17.12.13
+ default-router 10.17.255.254
+!
+ip dhcp pool vlan-172.16.2.0
+ lease 0 4 0
+ network 172.16.2.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.2.254
+!
+ip dhcp pool vlan-172.17.7.0
+ network 172.16.7.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.7.254
+!
+ip dhcp pool vlan6-172.16.6.0
+ network 172.16.6.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.6.254
+!
+ip dhcp pool vlan3
+ lease 0 2 0
+ network 172.16.3.0 255.255.255.0
+ dns-server 172.17.12.13 8.8.8.8
+ default-router 172.16.3.254
+!
+ip dhcp pool vlan8
+ network 172.16.8.0 255.255.255.0
+ dns-server 172.17.12.13 8.8.8.8
+ default-router 172.16.8.254
+!
+ip dhcp pool vla-172.16.4.0
+ network 172.16.4.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.4.254
+!
+ip dhcp pool vlan-172.16.14.0
+ lease 0 4 0
+ network 172.16.14.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.14.254
+!
+ip dhcp pool vlan-172.16.11.0
+ lease 0 4 0
+ network 172.16.11.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.11.254
+!
+ip dhcp pool vlan172.16.10.0
+ network 172.16.10.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.10.254
+!
+ip dhcp pool vlan172.16.15.0
+ network 172.16.15.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.15.254
+!
+ip dhcp pool vlan172.16.30.0
+ network 172.16.30.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.30.254
+!
+ip dhcp pool vlan-172.16.20.0
+ network 172.16.20.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.20.254
+!
+ip dhcp pool RG-ONC-IPPOOL-192.168.100.0-255.255.255.0
+ lease 0 0 1
+ network 192.168.100.0 255.255.255.0
+ dns-server 114.114.114.114
+ default-router 192.168.100.254
+!
+ip dhcp pool RG-ONC-IPPOOL-192.168.101.0-255.255.255.0
+ solidify
+ user-group teacher
+ lease 0 1 0
+ network 192.168.101.0 255.255.255.0
+ dns-server 114.114.114.114
+ default-router 192.168.101.254
+!
+ip dhcp pool RG-ONC-IPPOOL-192.168.102.0-255.255.255.0
+ solidify
+ user-group student
+ lease 0 1 0
+ network 192.168.102.0 255.255.255.0
+ dns-server 114.114.114.114
+ default-router 192.168.102.254
+!
+ip dhcp pool vlan3988
+ option 138 ip 9.9.9.9
+ network 10.200.11.0 255.255.255.0
+ default-router 10.200.11.254
+!
+ip dhcp pool vlan3683
+ lease 0 8 0
+ network 10.203.0.0 255.255.252.0
+ dns-server 172.17.12.13
+ default-router 10.203.3.254
+!
+ip dhcp pool vlan3684
+ lease 0 8 0
+ network 10.203.4.0 255.255.252.0
+ dns-server 172.17.12.13
+ default-router 10.203.7.254
+!
+ip dhcp pool vlan3685
+ lease 0 8 0
+ network 10.203.8.0 255.255.252.0
+ dns-server 172.17.12.13
+ default-router 10.203.11.254
+!
+ip dhcp pool vlan3686
+ lease 0 8 0
+ network 10.203.12.0 255.255.252.0
+ dns-server 172.17.12.13
+ default-router 10.203.15.254
+!
+ip dhcp pool vlan3687
+ lease 0 8 0
+ network 10.203.16.0 255.255.240.0
+ dns-server 172.17.12.13
+ default-router 10.203.31.254
+!
+ip dhcp pool vlan3714
+ lease 0 8 0
+ network 10.204.1.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.1.254
+!
+ip dhcp pool vlan3715
+ lease 0 8 0
+ network 10.204.2.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.2.254
+!
+ip dhcp pool vlan3716
+ lease 0 8 0
+ network 10.204.3.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.3.254
+!
+ip dhcp pool vlan3717
+ lease 0 8 0
+ network 10.204.4.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.4.254
+!
+ip dhcp pool vlan3718
+ lease 0 8 0
+ network 10.204.5.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.5.254
+!
+ip dhcp pool vlan3719
+ lease 0 8 0
+ network 10.204.6.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.6.254
+!
+ip dhcp pool vlan3720
+ lease 0 8 0
+ network 10.204.7.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.7.254
+!
+ip dhcp pool vlan3721
+ lease 0 8 0
+ network 10.204.8.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.8.254
+!
+ip dhcp pool vlan3722
+ lease 0 8 0
+ network 10.204.9.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.9.254
+!
+ip dhcp pool vlan3723
+ lease 0 8 0
+ network 10.204.10.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.10.254
+!
+ip dhcp pool vlan3724
+ lease 0 8 0
+ network 10.204.11.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.11.254
+!
+ip dhcp pool vlan3725
+ lease 0 8 0
+ network 10.204.12.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.12.254
+!
+ip dhcp pool vlan3726
+ lease 0 8 0
+ network 10.204.13.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.13.254
+!
+ip dhcp pool vlan3727
+ lease 0 8 0
+ network 10.204.14.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.14.254
+!
+ip dhcp pool vlan3728
+ lease 0 8 0
+ network 10.204.15.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.15.254
+!
+ip dhcp pool vlan3729
+ lease 0 8 0
+ network 10.204.16.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.16.254
+!
+ip dhcp pool vlan3730
+ lease 0 8 0
+ network 10.204.17.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.17.254
+!
+ip dhcp pool vlan3731
+ lease 0 8 0
+ network 10.204.18.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.18.254
+!
+ip dhcp pool vlan3732
+ lease 0 8 0
+ network 10.204.19.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.19.254
+!
+ip dhcp pool vlan40
+ network 172.16.40.0 255.255.254.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 172.16.41.254
+!
+ip dhcp pool vlan2
+!
+ip dhcp pool vlan3733
+ lease 0 8 0
+ network 10.204.20.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.20.254
+!
+ip dhcp pool vlan3615
+ lease 0 4 0
+ network 10.201.224.0 255.255.240.0
+ dns-server 114.114.114.114 8.8.8.8 172.17.12.13
+ default-router 10.201.239.254
+!
+ip dhcp pool vlan3614
+ lease 0 4 0
+ network 10.201.208.0 255.255.240.0
+ dns-server 114.114.114.114 8.8.8.8 172.17.12.13
+ default-router 10.201.223.254
+!
+ip dhcp pool vlan3689
+ lease 0 8 0
+ network 10.203.32.0 255.255.252.0
+ dns-server 172.17.12.13
+ default-router 10.203.35.254
+!
+ip dhcp pool vlan-172.16.60.0
+ network 172.16.60.0 255.255.255.0
+ dns-server 172.17.12.13
+ default-router 172.16.60.254
+!
+ip dhcp pool vlan3737
+ lease 0 8 0
+ network 10.204.24.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.24.254
+!
+ip dhcp pool vlan3738
+ lease 0 8 0
+ network 10.204.25.0 255.255.255.0
+ dns-server 172.17.12.13 114.114.114.114
+ default-router 10.204.25.254
+!
+install switch 1 RG-N18010
+install switch 2 RG-N18010
+install 1/1 M18000-48XS-DB
+install 1/3 M18000-24GT20SFP4XS-ED
+install 1/8 RG-WALL 1600-B-ED
+install 2/1 M18000-48XS-DB
+install 2/3 M18000-24GT20SFP4XS-ED
+install 2/8 RG-WALL 1600-B-ED
+!
+sysmac 5869.6cec.47b4
+!
+firewall-group group-id 1 device 1/8 device 2/8
+firewall-group group-id 1 mode aa
+!
+nfpp
+!
+of controller-ip 172.16.12.199 port 6653 interface VLAN 2999
+service password-encryption
+!
+aaa group server radius SAM
+ server 172.17.12.251
+!
+ip radius source-interface Loopback 0
+radius-server host 172.17.12.251 test username ruijie idle-time 2 key 7 0251563e120f3b
+radius-server timeout 2
+radius-server dead-criteria time 6 tries 3
+radius-server deadtime 5
+radius-server retransmit 2
+radius-server group-attribute 25
+!
+redundancy
+!
+user-group teacher
+!
+user-group student
+!
+user-group RG-ONC-PERMIT-GROUP
+!
+auth-mode gateway
+ip ssh version 2
+logging rate-limit msc data-flow 1000
+logging trap debugging
+logging source ip 10.0.0.1
+logging server 172.17.12.2
+logging server 172.17.12.229
+logging server 172.17.12.247
+!
+enable secret 5 $1$jfCs$69767DA7wsqxx52w
+enable service ssh-server
+!
+vlan 6
+ name SuSe_Mengjin
+!
+vlan 10
+ name dongyuan-old
+!
+vlan 20
+ name 1SXL-oldvlan
+!
+vlan 22
+ name XC-fuwuqi
+!
+vlan 40
+ name duomeitijiaoshi
+!
+vlan 60
+ name Guest
+!
+vlan 120
+ name jysp-huiyi
+!
+vlan 1000
+ remote-span
+!
+vlan 1002
+ name infogo
+!
+vlan 2000
+ supervlan
+ subvlan 2011-2020
+!
+vlan 2222
+ name JM_BDSEC
+!
+vlan 2997
+ name N18k_to_CE6851
+!
+vlan 2998
+ name Bangong_chukou_HuL
+!
+vlan 2999
+ name For_HuLian
+!
+vlan 3000
+ name Manage
+!
+vlan 3001
+ name For_manager_susheAP
+!
+vlan 3002
+ name yikatong
+!
+vlan 3003
+ name LED_Manage
+!
+vlan 3005
+ name jifangJianKong
+!
+vlan 3212
+ name teacher_youxian
+!
+vlan 3225
+ name teacher_wuxian
+!
+vlan 3229
+ name public_area-teacher_wuxian
+!
+vlan 3273
+ name student_wuxian
+!
+vlan 3277
+ name public_area-student_wuxian
+!
+vlan 3901
+ name new-yikatong
+!
+vlan 3902
+ name zhinengdianbiao
+!
+vlan 3903
+ name new-guangbo
+!
+vlan 3906
+ name damengmengjin
+!
+vlan 3984
+ name 6#SS-ap-manage
+!
+vlan 3985
+ name 5#SS-ap-manage
+!
+vlan 3986
+ name 4#SS-ap-manage
+!
+vlan 3987
+ name 3#SS-ap-manage
+!
+vlan 3988
+ name 2#SS-ap-manage
+!
+vlan 3989
+ name 1#SS-ap-manage
+!
+vlan 3994
+ name ShiWai-ap-manage
+!
+vlan 3995
+ name SXL3-ap-manage
+!
+vlan 3996
+ name SXL2-ap-manage
+!
+vlan 3997
+ name ST-ap-manage
+!
+vlan 3998
+ name JXL-ap-manage
+!
+vlan 3999
+ name news-DeviceManage
+!
+vlan 4000
+ name SSQ-Device-Manage
+!
+vlan 4001
+ supervlan
+ subvlan 3200-3262
+ name BGQ_teacher_youxian_Super
+!
+vlan 4002
+ supervlan
+ subvlan 3326-3451
+ name SSQ_Youxian&Wuxian_Super
+!
+vlan 4003
+ supervlan
+ subvlan 3263-3325
+ name JXQ_student_youxian_Super
+!
+vlan 4062
+ supervlan
+ subvlan 3632-3682
+!
+vlan 4063
+ supervlan
+ subvlan 3683-3713
+!
+vlan 4064
+ supervlan
+ subvlan 3714-3814
+!
+vlan 4085
+ name Link_New-N18k-huliang
+!
+vlan 4086
+ name ??§µ?????????
+!
+vlan range 1-5,7-9,11-19,21,23-30,88,97-102,109-119,121-200,218,1717-1718
+vlan range 1720,2011-2020,2500-2501,3004,3006-3211,3213-3224,3226-3228,3230-3272,3274-3276,3278-3451,3601-3814
+vlan range 3838
+!
+interface GigabitEthernet 1/3/1
+ description link_SangFor-AF
+ switchport access vlan 2999
+!
+interface GigabitEthernet 1/3/2
+ description link_SangFor-Ac
+ switchport access vlan 2999
+!
+interface GigabitEthernet 1/3/3
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/4
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/5
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/6
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/7
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/8
+ description connect to sdnWan1
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/9
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/10
+ description connect to sdnWan1
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/11
+ switchport access vlan 2999
+!
+interface GigabitEthernet 1/3/12
+ switchport access vlan 2999
+!
+interface GigabitEthernet 1/3/13
+ description connect YingJun-MiGuan
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/14
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/15
+ description conncet to YinJun-MinGuan
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/16
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/17
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/18
+ switchport access vlan 1000
+ mac-loopback
+!
+interface GigabitEthernet 1/3/19
+ no switchport
+ description connect go edu netword
+ ip address 210.43.47.238 255.255.255.252
+ ipv6 address 2001:250:4416::2/126
+!
+interface GigabitEthernet 1/3/20
+ description conn to JM_TAIGAN
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/21
+ description connect to APT
+ switchport access vlan 1000
+!
+interface GigabitEthernet 1/3/22
+ description connect to JM_LIULIANG
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/23
+ description link_NETEco-800
+ switchport access vlan 3005
+!
+interface GigabitEthernet 1/3/24
+ switchport access vlan 3005
+!
+interface GigabitEthernet 1/3/25
+ port-group 1
+!
+interface GigabitEthernet 1/3/26
+ port-group 1
+!
+interface GigabitEthernet 1/3/27
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/28
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/29
+ description baoleiji_134
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/3/30
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/31
+!
+interface GigabitEthernet 1/3/32
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/33
+ switchport protected
+ description to 8#-su-she
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,10,15,20,3000-3001,3224,3333,3396
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 1/3/34
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/35
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/36
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/37
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/38
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/39
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/40
+ shutdown
+!
+interface GigabitEthernet 1/3/41
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 1/3/42
+!
+interface GigabitEthernet 1/3/43
+!
+interface GigabitEthernet 1/3/44
+!
+interface GigabitEthernet 2/3/1
+ description Link_zhengwuwang
+ switchport access vlan 98
+!
+interface GigabitEthernet 2/3/2
+ description link_J1-6F_xxzx-office
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ ip access-group test-down-in in
+ ip access-group test-down-out out
+!
+interface GigabitEthernet 2/3/3
+ description connect to DongYuan
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,7,10-11,15,17,30,3000-3001,3212-3214,3225,3227,3273,3275
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/4
+ switchport protected
+ description jiaowuhonglou
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ dot1x critical recovery action reinitialize
+ dot1x critical
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/5
+ description Link_to_21#GY_3F-Hubswitch
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 2/3/6
+ description 6F-xingxinzhongxi-MengJing
+ switchport access vlan 6
+!
+interface GigabitEthernet 2/3/7
+ switchport access vlan 88
+!
+interface GigabitEthernet 2/3/8
+ switchport access vlan 3000
+!
+interface GigabitEthernet 2/3/9
+ switchport access vlan 88
+!
+interface GigabitEthernet 2/3/10
+ switchport access vlan 88
+!
+interface GigabitEthernet 2/3/11
+ switchport access vlan 88
+!
+interface GigabitEthernet 2/3/12
+ switchport access vlan 88
+!
+interface GigabitEthernet 2/3/13
+ description link_to_J1-507
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/14
+ description link_to_J1-107
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,12,15,100,3000,3003,3205,3220,3268
+!
+interface GigabitEthernet 2/3/15
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/16
+ description connect to test server
+ switchport access vlan 12
+!
+interface GigabitEthernet 2/3/17
+ description connect to NEW-center to cisco1/0/24
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,11-12,109,1717-1718,1720,3229
+ ip dhcp snooping trust
+!
+interface GigabitEthernet 2/3/18
+ description connect to SIP
+ switchport access vlan 12
+!
+interface GigabitEthernet 2/3/19
+ description connect to JiaoWuYiDongQingGuo
+ switchport access vlan 12
+!
+interface GigabitEthernet 2/3/20
+ description JingPan
+ switchport access vlan 12
+!
+interface GigabitEthernet 2/3/21
+ switchport protected
+ description TD_J1JXL_4F02-WLAN-S2928G-24P
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3220,3268
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/22
+ description link_to_sangfor_SSLVPN
+ switchport access vlan 12
+!
+interface GigabitEthernet 2/3/23
+ description Link_feixian-cach-eth1
+ switchport access vlan 1000
+!
+interface GigabitEthernet 2/3/24
+ description link_to xueshengsushe_IP113
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 2/3/25
+ description to Dongyuan
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,7,10-12,15,17,30,3000-3001,3212-3214,3225,3227,3273,3275,3403
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/26
+ description Link_feixian-cach
+ switchport access vlan 2999
+!
+interface GigabitEthernet 2/3/27
+ description Link_to_J2JXL
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/28
+ switchport protected
+ description Link_to_nanyuanShiTang
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/29
+ description Link_to_02#SXL
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,11,15,203,3000-3001,3003,3209,3230-3231,3278
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/30
+ switchport protected
+ description Link_to_01#SXL
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/31
+ switchport protected
+ description Link_to_TSG
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/32
+ description link_to_yuanbang
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 2/3/33
+ storm-control broadcast pps 600
+ storm-control multicast pps 600
+ switchport protected
+ flowcontrol on
+ speed 1000
+ description Link_to_ZhaoJiuBan
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/34
+ description Link_to_J4JXL
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+!
+interface GigabitEthernet 2/3/35
+ description Link_to_ZhongHeLou
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/36
+ description Link_to_22#GongYu
+ switchport mode trunk
+ switchport trunk allowed vlan only 5,3000-3001,3342,3405
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/37
+ switchport protected
+ description TD_J4JXL_4F02-WLAN-S2928G-24P
+ switchport mode trunk
+ switchport trunk allowed vlan only 12,14,3000-3001,3222,3270
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/38
+ switchport protected
+ description TD_J2JXL_4F02-WLAN-S2928G-24P
+ switchport mode trunk
+ switchport trunk allowed vlan only 19,3000-3001,3221,3269,3340
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/39
+ switchport protected
+ description TD_J5JXL_2F-WLAN-S2928G-24P
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,11,203,3000-3001,3003,3209,3226,3274
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/40
+ description jiaowuhonglou
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-2,12,3000-3001,3201,3216,3264
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ dot1x critical recovery action reinitialize
+ dot1x critical
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/41
+ description to J4-4F-wuxian
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface GigabitEthernet 2/3/42
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/43
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3228
+ dot1x port-control auto
+ web-auth enable eportalv2
+!
+interface GigabitEthernet 2/3/44
+!
+interface TenGigabitEthernet 1/1/1
+ switchport protected
+ description BeiYuang-bangong&sushe
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,12,3000-3001,3326,3389
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ dot1x critical
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/2
+!
+interface TenGigabitEthernet 1/1/3
+ description AllInMirror
+!
+interface TenGigabitEthernet 1/1/4
+!
+interface TenGigabitEthernet 1/1/5
+!
+interface TenGigabitEthernet 1/1/6
+!
+interface TenGigabitEthernet 1/1/7
+!
+interface TenGigabitEthernet 1/1/8
+!
+interface TenGigabitEthernet 1/1/9
+!
+interface TenGigabitEthernet 1/1/10
+!
+interface TenGigabitEthernet 1/1/11
+!
+interface TenGigabitEthernet 1/1/12
+!
+interface TenGigabitEthernet 1/1/13
+!
+interface TenGigabitEthernet 1/1/14
+!
+interface TenGigabitEthernet 1/1/15
+!
+interface TenGigabitEthernet 1/1/16
+!
+interface TenGigabitEthernet 1/1/17
+ speed 1000
+ description link_TD_J1JXL_6F-WLAN-S2910
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/18
+!
+interface TenGigabitEthernet 1/1/19
+ switchport protected
+ description to 21#-youxian
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface TenGigabitEthernet 1/1/20
+ switchport protected
+ description Link_TD_21#GY_4F-WLAN-AM5528
+ switchport mode trunk
+ switchport trunk native vlan 3001
+ switchport trunk allowed vlan only 1-999,1001-4094
+ rldp port loop-detect shutdown-port
+!
+interface TenGigabitEthernet 1/1/21
+ switchport protected
+ description DY10#SS_1F-01HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3229,3336,3399
+ dot1x port-control auto
+!
+interface TenGigabitEthernet 1/1/22
+ switchport protected
+ description DY10#SS_1F-02HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3229,3337,3400
+ dot1x port-control auto
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/23
+ switchport protected
+ description DY10#SS_2F-03HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3229,3338,3401
+ dot1x port-control auto
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/24
+ switchport protected
+ description DYJ5#SS_5F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3339,3402
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ dot1x critical
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/25
+ switchport protected
+ description NY1#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,15,20,3000-3001,3229-3230,3277,3326,3389
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/26
+!
+interface TenGigabitEthernet 1/1/27
+ description NY3#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,15,20,30,3000-3001,3229,3277,3328,3391
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/28
+ description NY4#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,15,3000-3001,3229,3277,3329,3392
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/29
+!
+interface TenGigabitEthernet 1/1/30
+ description NY6#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,20,3000-3001,3229,3331,3394
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/31
+!
+interface TenGigabitEthernet 1/1/32
+ switchport protected
+ description NY8#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,20,3000-3001,3224,3333,3396
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/33
+ switchport protected
+ description NY9#SS_3F-01HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,11,17,3000-3001,3335,3398
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/34
+ switchport protected
+ description NY9#SS_3F-02HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/35
+!
+interface TenGigabitEthernet 1/1/36
+!
+interface TenGigabitEthernet 1/1/37
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3336,3399
+ dot1x port-control auto
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/38
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3337,3400
+ dot1x port-control auto
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/39
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3338,3401
+ dot1x port-control auto
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/40
+ switchport protected
+ switchport mode trunk
+ switchport trunk allowed vlan only 3000-3001,3339,3402
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ dot1x critical
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 1/1/41
+!
+interface TenGigabitEthernet 1/1/42
+!
+interface TenGigabitEthernet 1/1/43
+!
+interface TenGigabitEthernet 1/1/44
+!
+interface TenGigabitEthernet 1/1/45
+ port-group 200
+!
+interface TenGigabitEthernet 1/1/46
+!
+interface TenGigabitEthernet 1/1/47
+!
+interface TenGigabitEthernet 1/1/48
+!
+interface TenGigabitEthernet 1/3/45
+ port-group 200
+!
+interface TenGigabitEthernet 1/3/46
+ storm-control broadcast level 1
+ no switchport
+ description link_to_waf_to_CE6800
+ ip address 172.31.1.1 255.255.255.252
+ ip address 218.196.4.9 255.255.255.248 secondary
+ ipv6 address 240E:780:3110:2:FC00::1/70
+ ipv6 address 2001:250:4416:54::1/64
+ ipv6 enable
+ ip policy route-map user
+!
+interface TenGigabitEthernet 1/3/47
+!
+interface TenGigabitEthernet 1/3/48
+!
+interface TenGigabitEthernet 1/8/1
+!
+interface TenGigabitEthernet 1/8/2
+!
+interface TenGigabitEthernet 1/8/3
+!
+interface TenGigabitEthernet 1/8/4
+!
+interface TenGigabitEthernet 1/8/5
+!
+interface TenGigabitEthernet 1/8/6
+!
+interface TenGigabitEthernet 1/8/7
+!
+interface TenGigabitEthernet 2/1/1
+!
+interface TenGigabitEthernet 2/1/2
+!
+interface TenGigabitEthernet 2/1/3
+!
+interface TenGigabitEthernet 2/1/4
+!
+interface TenGigabitEthernet 2/1/5
+ switchport protected
+ description NY5#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-2,6,20,3000-3001,3229,3329-3330,3393
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 2/1/6
+ switchport protected
+ description NY8#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,20,3000-3001,3224,3333,3396
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 2/1/7
+ switchport protected
+ description NY2#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,12,15,3000-3001,3327,3390
+ dot1x port-control auto
+ dot1x critical recovery action reinitialize
+ ip access-group test-1 in
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 2/1/8
+ switchport protected
+ description NY7#SS_1F-HJ-RJ5750C-H
+ switchport mode trunk
+ switchport trunk allowed vlan only 2,20,3000-3001,3332,3395
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 2/1/9
+!
+interface TenGigabitEthernet 2/1/10
+ description TO:ruijie-INC
+ switchport access vlan 12
+!
+interface TenGigabitEthernet 2/1/11
+ description TO:ruijie-INC
+ switchport access vlan 12
+!
+interface TenGigabitEthernet 2/1/12
+!
+interface TenGigabitEthernet 2/1/13
+ switchport mode trunk
+!
+interface TenGigabitEthernet 2/1/14
+!
+interface TenGigabitEthernet 2/1/15
+ switchport protected
+ description Link_to_TSG
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 2/1/16
+!
+interface TenGigabitEthernet 2/1/17
+!
+interface TenGigabitEthernet 2/1/18
+!
+interface TenGigabitEthernet 2/1/19
+!
+interface TenGigabitEthernet 2/1/20
+!
+interface TenGigabitEthernet 2/1/21
+!
+interface TenGigabitEthernet 2/1/22
+!
+interface TenGigabitEthernet 2/1/23
+!
+interface TenGigabitEthernet 2/1/24
+!
+interface TenGigabitEthernet 2/1/25
+!
+interface TenGigabitEthernet 2/1/26
+!
+interface TenGigabitEthernet 2/1/27
+!
+interface TenGigabitEthernet 2/1/28
+!
+interface TenGigabitEthernet 2/1/29
+!
+interface TenGigabitEthernet 2/1/30
+!
+interface TenGigabitEthernet 2/1/31
+!
+interface TenGigabitEthernet 2/1/32
+!
+interface TenGigabitEthernet 2/1/33
+!
+interface TenGigabitEthernet 2/1/34
+!
+interface TenGigabitEthernet 2/1/35
+!
+interface TenGigabitEthernet 2/1/36
+!
+interface TenGigabitEthernet 2/1/37
+ no switchport
+ description connect to edu network
+!
+interface TenGigabitEthernet 2/1/38
+!
+interface TenGigabitEthernet 2/1/39
+!
+interface TenGigabitEthernet 2/1/40
+!
+interface TenGigabitEthernet 2/1/41
+ description Link_N18012_te1/10/24
+ port-group 11
+!
+interface TenGigabitEthernet 2/1/42
+ description connect to QiAnXin APT
+ switchport access vlan 1000
+!
+interface TenGigabitEthernet 2/1/43
+ description Link_N18012_te1/10/21
+ port-group 11
+!
+interface TenGigabitEthernet 2/1/44
+!
+interface TenGigabitEthernet 2/1/45
+ switchport access vlan 12
+!
+interface TenGigabitEthernet 2/1/46
+!
+interface TenGigabitEthernet 2/1/47
+!
+interface TenGigabitEthernet 2/1/48
+ description connect to caohui's switch
+ switchport mode trunk
+ switchport trunk allowed vlan only 1-999,1001-4094
+!
+interface TenGigabitEthernet 2/3/45
+ no switchport
+ ip address 10.10.10.1 255.255.255.252
+ ipv6 address 2001:250:4416:53::1/64
+ ipv6 enable
+!
+interface TenGigabitEthernet 2/3/46
+ description to dongyuan
+ switchport mode trunk
+ switchport trunk allowed vlan only 1,7,10-11,15,17,30,3000-3001,3212-3214,3225,3227,3273,3275
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface TenGigabitEthernet 2/3/47
+!
+interface TenGigabitEthernet 2/3/48
+!
+interface TenGigabitEthernet 2/8/1
+!
+interface TenGigabitEthernet 2/8/2
+!
+interface TenGigabitEthernet 2/8/3
+!
+interface TenGigabitEthernet 2/8/4
+!
+interface TenGigabitEthernet 2/8/5
+!
+interface TenGigabitEthernet 2/8/6
+!
+interface TenGigabitEthernet 2/8/7
+!
+interface AggregatePort 1
+ description TO_AC_WS6812_Ag1
+ switchport mode trunk
+ switchport trunk allowed vlan only 120,2999-4003
+!
+interface AggregatePort 2
+!
+interface AggregatePort 11
+ switchport protected
+ description link_N18012
+ switchport mode trunk
+ switchport trunk allowed vlan only 10,12,14,17,20,30,40,2999,3601-3615,3632-3639,3683-3692,3714-3733,3737-3738,3901-3904
+ switchport trunk allowed vlan add 3906,3980-4001,4085-4086
+ dot1x port-control auto
+ dot1x mac-auth-bypass multi-user
+ web-auth enable eportalv2
+!
+interface AggregatePort 200
+ description Link_sanfor-Ac_eth8
+ switchport access vlan 2999
+ ip access-group test in
+ ip access-group test-2 out
+!
+interface Loopback 0
+ description SAM/portal
+ ip address 1.1.1.1 255.255.255.255
+!
+interface Loopback 1
+ ip address 2.2.2.2 255.255.255.0
+!
+interface VLAN 1
+ ip address 192.168.0.101 255.255.255.0
+!
+interface VLAN 2
+ ip address 172.16.2.254 255.255.255.0
+ ipv6 address 2001:250:4416:22::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:22::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan2
+!
+interface VLAN 3
+ ip address 172.16.3.254 255.255.255.0
+ ipv6 address 2001:250:4416:23::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:23::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan3
+!
+interface VLAN 4
+ ip address 172.16.4.254 255.255.255.0
+ ipv6 address 2001:250:4416:24::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:24::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan4
+!
+interface VLAN 5
+ description to danShengGongYu22#
+ ip address 172.16.5.254 255.255.255.0
+ ipv6 address 2001:250:4416:25::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:25::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan5
+!
+interface VLAN 6
+ description to XueShengSuShe
+ ip address 172.16.6.254 255.255.255.0
+ ipv6 address 2001:250:4416:26::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:26::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan6
+!
+interface VLAN 7
+ ip address 172.16.7.254 255.255.255.0
+ ipv6 address 2001:250:4416:27::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:27::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan7
+!
+interface VLAN 8
+ ip address 172.16.8.254 255.255.255.0
+ ipv6 address 2001:250:4416:28::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:28::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan8
+!
+interface VLAN 9
+ ip address 172.16.9.254 255.255.255.0
+ ipv6 address 2001:250:4416:29::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:29::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan9
+!
+interface VLAN 10
+ ip address 172.16.10.254 255.255.255.0
+ ipv6 address 2001:250:4416:30::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:30::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan10
+!
+interface VLAN 11
+ description 02#SXL-gateway
+ ip address 172.16.11.254 255.255.255.0
+ ipv6 address 2001:250:4416:31::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:31::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan11
+!
+interface VLAN 12
+ description xxzx-vlan
+ ip address 172.16.12.254 255.255.255.0
+ ipv6 address 240E:780:3110:2:400::1/70
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 240E:780:3110:2:400::/70  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan12
+!
+interface VLAN 13
+ ipv6 address 2001:250:4416:33::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:33::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan13
+!
+interface VLAN 14
+ ip address 172.16.14.254 255.255.255.0
+ ipv6 address 2001:250:4416:34::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:34::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan14
+!
+interface VLAN 15
+ ip address 172.16.15.254 255.255.255.0
+ ipv6 address 2001:250:4416:35::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:35::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan15
+!
+interface VLAN 16
+ shutdown
+ ip address 172.16.16.253 255.255.255.0
+ ipv6 address 2001:250:4416:36::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:36::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan16
+!
+interface VLAN 17
+ description to beiyong
+ ip address 172.16.17.254 255.255.255.0
+ ipv6 address 2001:250:4416:37::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:37::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan17
+!
+interface VLAN 18
+ ip address 172.16.18.254 255.255.255.0
+ ipv6 address 2001:250:4416:38::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:38::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan18
+!
+interface VLAN 19
+ ip address 172.16.19.254 255.255.255.0
+ ipv6 address 2001:250:4416:39::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:8000::/54  no-autoconfig
+ ipv6 nd prefix 2001:250:4416:39::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan19
+!
+interface VLAN 20
+ ip address 172.16.20.254 255.255.255.0
+ ipv6 address 2001:250:4416:40::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:40::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan20
+!
+interface VLAN 21
+ ip address 172.16.21.254 255.255.255.0
+ ipv6 address 2001:250:4416:41::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:41::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan21
+!
+interface VLAN 22
+ ip address 172.16.22.254 255.255.255.0
+ ipv6 address 2001:250:4416:42::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:42::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan22
+!
+interface VLAN 23
+ ip address 172.23.129.254 255.255.255.0
+ ipv6 address 2001:250:4416:43::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:43::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan23
+!
+interface VLAN 30
+ ip address 172.16.30.254 255.255.255.0
+ ipv6 address 2001:250:4416:44::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:44::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan30
+!
+interface VLAN 40
+ ip address 172.16.41.254 255.255.254.0
+!
+interface VLAN 60
+ description to Guest
+ ip address 172.16.60.254 255.255.255.0
+!
+interface VLAN 88
+ ip address 172.16.88.254 255.255.255.0
+ ipv6 address 2001:250:4416:45::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:45::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan88
+!
+interface VLAN 98
+ ipv6 address 2001:250:4416:46::1/64
+ ipv6 nd prefix 2001:250:4416:46::/64  no-autoconfig
+!
+interface VLAN 99
+ description connect to EDU-VIDEO
+ ip address 10.41.4.254 255.255.255.0
+ ipv6 address 2001:250:4416:47::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:47::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan99
+!
+interface VLAN 100
+ ip address 172.16.100.254 255.255.255.0
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd managed-config-flag
+!
+interface VLAN 120
+!
+interface VLAN 200
+!
+interface VLAN 218
+!
+interface VLAN 1000
+!
+interface VLAN 1002
+ ip address 172.16.13.254 255.255.255.0
+ ipv6 address 2001:250:4416:49::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:49::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan1002
+!
+interface VLAN 1717
+ ip address 172.17.17.254 255.255.255.0
+ ipv6 address 2001:250:4416:50::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:50::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan1717
+!
+interface VLAN 1718
+ ip address 172.17.18.254 255.255.255.0
+ ipv6 address 2001:250:4416:51::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:51::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan1718
+!
+interface VLAN 1720
+ ip address 172.17.20.254 255.255.255.0
+ ipv6 address 2001:250:4416:52::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001:250:4416:52::/64  no-autoconfig
+ ipv6 nd managed-config-flag
+ ipv6 dhcp server vlan1720
+!
+interface VLAN 2000
+ ip address 192.168.100.254 255.255.255.0
+ ip address 192.168.101.254 255.255.255.0 secondary
+ ip address 192.168.102.254 255.255.255.0 secondary
+ ip address 192.168.103.254 255.255.255.0 secondary
+ arp disable-learning 192.168.103.0 255.255.255.0
+!
+interface VLAN 2222
+!
+interface VLAN 2500
+ ip address 172.168.10.254 255.255.255.0
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd prefix 2001::/64  no-autoconfig
+ ipv6 nd other-config-flag
+ ipv6 dhcp server ruijie
+!
+interface VLAN 2501
+ ipv6 enable
+!
+interface VLAN 2998
+!
+interface VLAN 2999
+ description For_HuLian
+ ip address 10.0.0.1 255.255.255.0
+ ipv6 address 240E:780:3110:2:F800::1/70
+ ipv6 enable
+!
+interface VLAN 3000
+ description Mange
+ ip address 10.0.2.1 255.255.254.0
+ ipv6 enable
+!
+interface VLAN 3001
+ ip address 10.0.7.254 255.255.252.0
+!
+interface VLAN 3002
+ ip address 10.0.8.254 255.255.255.0
+ ipv6 enable
+!
+interface VLAN 3003
+ ip address 10.0.9.254 255.255.255.0
+ ipv6 enable
+!
+interface VLAN 3004
+ ipv6 enable
+!
+interface VLAN 3005
+ description jifangJianKong
+ ip address 10.0.11.1 255.255.255.0
+ ipv6 enable
+!
+interface VLAN 3006
+ ipv6 enable
+!
+interface VLAN 3007
+ ipv6 enable
+!
+interface VLAN 3008
+ ipv6 enable
+!
+interface VLAN 3838
+ description caohui's-office
+ ip address 10.38.38.254 255.255.0.0
+ ipv6 enable
+!
+interface VLAN 3901
+ ip address 10.254.1.254 255.255.255.0
+!
+interface VLAN 3902
+ ip address 10.254.2.254 255.255.255.0
+!
+interface VLAN 3903
+ ip address 10.254.3.254 255.255.255.0
+!
+interface VLAN 3906
+ ip address 10.254.7.254 255.255.255.0
+!
+interface VLAN 4000
+ ip address 10.255.3.254 255.255.254.0
+!
+interface VLAN 4001
+ description jiaoshi_bangong
+ local-proxy-arp
+ ip address 10.11.255.254 255.255.0.0
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd managed-config-flag
+!
+interface VLAN 4002
+ ip address 10.15.255.254 255.252.0.0
+!
+interface VLAN 4003
+ description xuesheng_wuxian
+ ip address 10.17.255.254 255.254.0.0
+ ipv6 address 2001:250:4416:19::1/64
+ ipv6 enable
+ no ipv6 nd suppress-ra
+ ipv6 nd other-config-flag
+!
+interface VLAN 4063
+ local-proxy-arp
+ ip address 10.203.255.254 255.255.252.0
+ ip address 10.203.3.254 255.255.252.0 secondary
+ ip address 10.203.7.254 255.255.252.0 secondary
+ ip address 10.203.11.254 255.255.252.0 secondary
+ ip address 10.203.15.254 255.255.252.0 secondary
+ ip address 10.203.35.254 255.255.252.0 secondary
+ ip address 10.203.31.254 255.255.240.0 secondary
+!
+interface VLAN 4064
+ local-proxy-arp
+ ip address 10.204.0.254 255.255.255.0
+ ip address 10.204.1.254 255.255.255.0 secondary
+ ip address 10.204.2.254 255.255.255.0 secondary
+ ip address 10.204.3.254 255.255.255.0 secondary
+ ip address 10.204.4.254 255.255.255.0 secondary
+ ip address 10.204.5.254 255.255.255.0 secondary
+ ip address 10.204.6.254 255.255.255.0 secondary
+ ip address 10.204.7.254 255.255.255.0 secondary
+ ip address 10.204.8.254 255.255.255.0 secondary
+ ip address 10.204.9.254 255.255.255.0 secondary
+ ip address 10.204.10.254 255.255.255.0 secondary
+ ip address 10.204.11.254 255.255.255.0 secondary
+ ip address 10.204.12.254 255.255.255.0 secondary
+ ip address 10.204.13.254 255.255.255.0 secondary
+ ip address 10.204.14.254 255.255.255.0 secondary
+ ip address 10.204.15.254 255.255.255.0 secondary
+ ip address 10.204.16.254 255.255.255.0 secondary
+ ip address 10.204.17.254 255.255.255.0 secondary
+ ip address 10.204.18.254 255.255.255.0 secondary
+ ip address 10.204.19.254 255.255.255.0 secondary
+ ip address 10.204.20.254 255.255.255.0 secondary
+ ip address 10.204.24.254 255.255.255.0 secondary
+ ip address 10.204.25.254 255.255.255.0 secondary
+!
+interface VLAN 4085
+ ip address 10.255.227.1 255.255.255.252
+!
+interface VLAN 4086
+ ip address 10.255.255.73 255.255.255.252
+!
+interface Mgmt 1/0
+!
+interface Mgmt 2/0
+!
+dot1x accounting default
+dot1x authentication default
+dot1x timeout server-timeout 20
+dot1x mac-auth-bypass valid-ip-auth
+dot1x valid-ip-acct enable
+no dot1x station-move arp-detect
+!
+address-bind ipv6-mode loose
+!
+monitor session 3 destination interface GigabitEthernet 2/3/16 switch
+monitor session 4 destination interface GigabitEthernet 1/3/15 switch
+monitor session 10 destination interface TenGigabitEthernet 2/1/42 switch
+monitor session 10 source interface GigabitEthernet 1/3/1 both
+monitor session 10 source interface GigabitEthernet 1/3/2 both
+monitor session 10 source interface GigabitEthernet 1/3/3 both
+monitor session 10 source interface GigabitEthernet 1/3/4 both
+monitor session 10 source interface GigabitEthernet 1/3/5 both
+monitor session 10 source interface GigabitEthernet 1/3/6 both
+monitor session 10 source interface GigabitEthernet 1/3/7 both
+monitor session 10 source interface GigabitEthernet 1/3/8 both
+monitor session 10 source interface GigabitEthernet 1/3/9 both
+monitor session 10 source interface GigabitEthernet 1/3/10 both
+monitor session 10 source interface GigabitEthernet 1/3/11 both
+monitor session 10 source interface GigabitEthernet 1/3/12 both
+monitor session 10 source interface GigabitEthernet 1/3/13 both
+monitor session 10 source interface GigabitEthernet 1/3/14 both
+monitor session 10 source interface GigabitEthernet 1/3/16 both
+monitor session 10 source interface GigabitEthernet 1/3/17 both
+monitor session 10 source interface GigabitEthernet 1/3/18 both
+monitor session 10 source interface GigabitEthernet 1/3/19 both
+monitor session 10 source interface GigabitEthernet 1/3/20 both
+monitor session 10 source interface GigabitEthernet 1/3/22 both
+monitor session 10 source interface GigabitEthernet 1/3/23 both
+monitor session 10 source interface GigabitEthernet 1/3/24 both
+monitor session 10 source interface GigabitEthernet 1/3/27 both
+monitor session 10 source interface GigabitEthernet 1/3/28 both
+monitor session 10 source interface GigabitEthernet 1/3/29 both
+monitor session 10 source interface GigabitEthernet 1/3/30 both
+monitor session 10 source interface GigabitEthernet 1/3/31 both
+monitor session 10 source interface GigabitEthernet 1/3/32 both
+monitor session 10 source interface GigabitEthernet 1/3/33 both
+monitor session 10 source interface GigabitEthernet 1/3/34 both
+monitor session 10 source interface GigabitEthernet 1/3/35 both
+monitor session 10 source interface GigabitEthernet 1/3/36 both
+monitor session 10 source interface GigabitEthernet 1/3/37 both
+monitor session 10 source interface GigabitEthernet 1/3/38 both
+monitor session 10 source interface GigabitEthernet 1/3/39 both
+monitor session 10 source interface GigabitEthernet 1/3/40 both
+monitor session 10 source interface GigabitEthernet 1/3/41 both
+monitor session 10 source interface GigabitEthernet 1/3/42 both
+monitor session 10 source interface GigabitEthernet 1/3/43 both
+monitor session 10 source interface GigabitEthernet 1/3/44 both
+monitor session 10 source interface GigabitEthernet 2/3/1 both
+monitor session 10 source interface GigabitEthernet 2/3/2 both
+monitor session 10 source interface GigabitEthernet 2/3/3 both
+monitor session 10 source interface GigabitEthernet 2/3/4 both
+monitor session 10 source interface GigabitEthernet 2/3/5 both
+monitor session 10 source interface GigabitEthernet 2/3/6 both
+monitor session 10 source interface GigabitEthernet 2/3/7 both
+monitor session 10 source interface GigabitEthernet 2/3/8 both
+monitor session 10 source interface GigabitEthernet 2/3/9 both
+monitor session 10 source interface GigabitEthernet 2/3/10 both
+monitor session 10 source interface GigabitEthernet 2/3/11 both
+monitor session 10 source interface GigabitEthernet 2/3/12 both
+monitor session 10 source interface GigabitEthernet 2/3/13 both
+monitor session 10 source interface GigabitEthernet 2/3/14 both
+monitor session 10 source interface GigabitEthernet 2/3/15 both
+monitor session 10 source interface GigabitEthernet 2/3/17 both
+monitor session 10 source interface GigabitEthernet 2/3/19 both
+monitor session 10 source interface GigabitEthernet 2/3/20 both
+monitor session 10 source interface GigabitEthernet 2/3/21 both
+monitor session 10 source interface GigabitEthernet 2/3/22 both
+monitor session 10 source interface GigabitEthernet 2/3/23 both
+monitor session 10 source interface GigabitEthernet 2/3/24 both
+monitor session 10 source interface GigabitEthernet 2/3/25 both
+monitor session 10 source interface GigabitEthernet 2/3/26 both
+monitor session 10 source interface GigabitEthernet 2/3/27 both
+monitor session 10 source interface GigabitEthernet 2/3/28 both
+monitor session 10 source interface GigabitEthernet 2/3/29 both
+monitor session 10 source interface GigabitEthernet 2/3/30 both
+monitor session 10 source interface GigabitEthernet 2/3/31 both
+monitor session 10 source interface GigabitEthernet 2/3/32 both
+monitor session 10 source interface GigabitEthernet 2/3/33 both
+monitor session 10 source interface GigabitEthernet 2/3/34 both
+monitor session 10 source interface GigabitEthernet 2/3/35 both
+monitor session 10 source interface GigabitEthernet 2/3/36 both
+monitor session 10 source interface GigabitEthernet 2/3/37 both
+monitor session 10 source interface GigabitEthernet 2/3/38 both
+monitor session 10 source interface GigabitEthernet 2/3/39 both
+monitor session 10 source interface GigabitEthernet 2/3/40 both
+monitor session 10 source interface GigabitEthernet 2/3/41 both
+monitor session 10 source interface GigabitEthernet 2/3/42 both
+monitor session 10 source interface GigabitEthernet 2/3/43 both
+monitor session 10 source interface GigabitEthernet 2/3/44 both
+monitor session 10 source interface TenGigabitEthernet 1/1/1 both
+monitor session 10 source interface TenGigabitEthernet 1/1/2 both
+monitor session 10 source interface TenGigabitEthernet 1/1/4 both
+monitor session 10 source interface TenGigabitEthernet 1/1/5 both
+monitor session 10 source interface TenGigabitEthernet 1/1/6 both
+monitor session 10 source interface TenGigabitEthernet 1/1/7 both
+monitor session 10 source interface TenGigabitEthernet 1/1/8 both
+monitor session 10 source interface TenGigabitEthernet 1/1/9 both
+monitor session 10 source interface TenGigabitEthernet 1/1/10 both
+monitor session 10 source interface TenGigabitEthernet 1/1/11 both
+monitor session 10 source interface TenGigabitEthernet 1/1/12 both
+monitor session 10 source interface TenGigabitEthernet 1/1/13 both
+monitor session 10 source interface TenGigabitEthernet 1/1/14 both
+monitor session 10 source interface TenGigabitEthernet 1/1/15 both
+monitor session 10 source interface TenGigabitEthernet 1/1/16 both
+monitor session 10 source interface TenGigabitEthernet 1/1/17 both
+monitor session 10 source interface TenGigabitEthernet 1/1/18 both
+monitor session 10 source interface TenGigabitEthernet 1/1/19 both
+monitor session 10 source interface TenGigabitEthernet 1/1/20 both
+monitor session 10 source interface TenGigabitEthernet 1/1/21 both
+monitor session 10 source interface TenGigabitEthernet 1/1/22 both
+monitor session 10 source interface TenGigabitEthernet 1/1/23 both
+monitor session 10 source interface TenGigabitEthernet 1/1/24 both
+monitor session 10 source interface TenGigabitEthernet 1/1/25 both
+monitor session 10 source interface TenGigabitEthernet 1/1/26 both
+monitor session 10 source interface TenGigabitEthernet 1/1/27 both
+monitor session 10 source interface TenGigabitEthernet 1/1/28 both
+monitor session 10 source interface TenGigabitEthernet 1/1/29 both
+monitor session 10 source interface TenGigabitEthernet 1/1/30 both
+monitor session 10 source interface TenGigabitEthernet 1/1/31 both
+monitor session 10 source interface TenGigabitEthernet 1/1/32 both
+monitor session 10 source interface TenGigabitEthernet 1/1/33 both
+monitor session 10 source interface TenGigabitEthernet 1/1/34 both
+monitor session 10 source interface TenGigabitEthernet 1/1/35 both
+monitor session 10 source interface TenGigabitEthernet 1/1/36 both
+monitor session 10 source interface TenGigabitEthernet 1/1/37 both
+monitor session 10 source interface TenGigabitEthernet 1/1/38 both
+monitor session 10 source interface TenGigabitEthernet 1/1/39 both
+monitor session 10 source interface TenGigabitEthernet 1/1/40 both
+monitor session 10 source interface TenGigabitEthernet 1/1/41 both
+monitor session 10 source interface TenGigabitEthernet 1/1/42 both
+monitor session 10 source interface TenGigabitEthernet 1/1/43 both
+monitor session 10 source interface TenGigabitEthernet 1/1/44 both
+monitor session 10 source interface TenGigabitEthernet 1/1/46 both
+monitor session 10 source interface TenGigabitEthernet 1/1/47 both
+monitor session 10 source interface TenGigabitEthernet 1/1/48 both
+monitor session 10 source interface TenGigabitEthernet 2/1/1 both
+monitor session 10 source interface TenGigabitEthernet 2/1/2 both
+monitor session 10 source interface TenGigabitEthernet 2/1/3 both
+monitor session 10 source interface TenGigabitEthernet 2/1/4 both
+monitor session 10 source interface TenGigabitEthernet 2/1/5 both
+monitor session 10 source interface TenGigabitEthernet 2/1/6 both
+monitor session 10 source interface TenGigabitEthernet 2/1/7 both
+monitor session 10 source interface TenGigabitEthernet 2/1/8 both
+monitor session 10 source interface TenGigabitEthernet 2/1/9 both
+monitor session 10 source interface TenGigabitEthernet 2/1/10 both
+monitor session 10 source interface TenGigabitEthernet 2/1/11 both
+monitor session 10 source interface TenGigabitEthernet 2/1/12 both
+monitor session 10 source interface TenGigabitEthernet 2/1/13 both
+monitor session 10 source interface TenGigabitEthernet 2/1/14 both
+monitor session 10 source interface TenGigabitEthernet 2/1/15 both
+monitor session 10 source interface TenGigabitEthernet 2/1/16 both
+monitor session 10 source interface TenGigabitEthernet 2/1/17 both
+monitor session 10 source interface TenGigabitEthernet 2/1/18 both
+monitor session 10 source interface TenGigabitEthernet 2/1/19 both
+monitor session 10 source interface TenGigabitEthernet 2/1/20 both
+monitor session 10 source interface TenGigabitEthernet 2/1/21 both
+monitor session 10 source interface TenGigabitEthernet 2/1/22 both
+monitor session 10 source interface TenGigabitEthernet 2/1/23 both
+monitor session 10 source interface TenGigabitEthernet 2/1/24 both
+monitor session 10 source interface TenGigabitEthernet 2/1/25 both
+monitor session 10 source interface TenGigabitEthernet 2/1/26 both
+monitor session 10 source interface TenGigabitEthernet 2/1/27 both
+monitor session 10 source interface TenGigabitEthernet 2/1/28 both
+monitor session 10 source interface TenGigabitEthernet 2/1/29 both
+monitor session 10 source interface TenGigabitEthernet 2/1/30 both
+monitor session 10 source interface TenGigabitEthernet 2/1/31 both
+monitor session 10 source interface TenGigabitEthernet 2/1/32 both
+monitor session 10 source interface TenGigabitEthernet 2/1/33 both
+monitor session 10 source interface TenGigabitEthernet 2/1/34 both
+monitor session 10 source interface TenGigabitEthernet 2/1/35 both
+monitor session 10 source interface TenGigabitEthernet 2/1/36 both
+monitor session 10 source interface TenGigabitEthernet 2/1/37 both
+monitor session 10 source interface TenGigabitEthernet 2/1/38 both
+monitor session 10 source interface TenGigabitEthernet 2/1/39 both
+monitor session 10 source interface TenGigabitEthernet 2/1/40 both
+monitor session 10 source interface TenGigabitEthernet 2/1/44 both
+monitor session 10 source interface TenGigabitEthernet 2/1/45 both
+monitor session 10 source interface TenGigabitEthernet 2/1/46 both
+monitor session 10 source interface TenGigabitEthernet 2/1/47 both
+monitor session 10 source interface TenGigabitEthernet 2/1/48 both
+monitor session 9 destination interface GigabitEthernet 2/3/18 switch
+monitor session 9 source interface TenGigabitEthernet 1/3/46 both
+!
+arp 192.168.103.101 000c.29f2.ad29 arpa
+arp 192.168.103.252 00e0.4c09.7450 arpa
+arp 192.168.103.253 0074.9cfe.9608 arpa
+!
+ipv6 router ospf 3
+ graceful-restart
+!
+switch virtual domain 1
+!
+ipv6 route ::/0 2001:250:4416::1
+ipv6 route 2001:250:4416:8::/64 2001:250:4416:54::2
+!
+ip route 0.0.0.0 0.0.0.0 10.0.0.2
+ip route 10.0.10.0 255.255.255.0 10.255.227.2
+ip route 10.0.12.0 255.255.255.0 10.255.227.2
+ip route 10.0.20.0 255.255.252.0 10.255.227.2
+ip route 10.1.0.0 255.255.0.0 10.255.227.2
+ip route 10.2.0.0 255.255.0.0 10.255.227.2
+ip route 10.3.0.0 255.255.0.0 10.255.227.2
+ip route 10.4.0.0 255.255.0.0 10.255.227.2
+ip route 10.5.0.0 255.255.0.0 10.255.227.2
+ip route 10.127.1.45 255.255.255.255 10.255.255.74
+ip route 10.127.1.46 255.255.255.255 10.255.255.74
+ip route 10.127.1.47 255.255.255.255 10.255.255.74
+ip route 10.127.2.0 255.255.255.0 10.255.255.74
+ip route 10.201.0.0 255.255.0.0 10.255.227.2
+ip route 10.202.0.0 255.255.0.0 10.255.227.2
+ip route 10.255.0.7 255.255.255.255 10.255.227.2
+ip route 10.255.1.240 255.255.255.255 10.255.227.2
+ip route 10.255.1.241 255.255.255.255 10.255.227.2
+ip route 10.255.227.4 255.255.255.252 10.255.227.2
+ip route 10.255.255.8 255.255.255.248 10.255.227.2
+ip route 36.112.31.222 255.255.255.255 210.43.47.237
+ip route 42.247.111.130 255.255.255.255 210.43.47.237
+ip route 81.70.185.149 255.255.255.255 210.43.47.237
+ip route 101.42.45.144 255.255.255.255 210.43.47.237
+ip route 106.75.10.182 255.255.255.255 210.43.47.237
+ip route 106.75.35.94 255.255.255.255 210.43.47.237
+ip route 106.75.67.45 255.255.255.255 210.43.47.237
+ip route 106.75.247.182 255.255.255.255 210.43.47.237
+ip route 120.53.108.28 255.255.255.255 210.43.47.237
+ip route 127.149.3.151 255.255.255.255 210.43.47.237
+ip route 127.149.3.152 255.255.255.255 210.43.47.237
+ip route 172.17.12.0 255.255.255.0 172.31.1.2
+ip route 172.18.2.173 255.255.255.255 172.17.12.24
+ip route 192.168.115.0 255.255.255.0 172.31.1.2
+ip route 205.164.50.192 255.255.255.224 210.43.47.237
+ip route 218.196.4.0 255.255.255.240 218.196.4.10
+!
+offline-detect interval 30 threshold 0
+direct-vlan 1-12,14-15,17-21,23,30,40,88,98-100,2998-3001,3005,3689,3715,3717-3721,3724-3726,3729-3730,3732,3738,3901-3903,3906,3980-4000,4085-4086
+station-move permit
+free-dns 222.246.129.80 255.255.255.255
+free-dns 58.20.127.238 255.255.255.255
+free-dns 114.114.114.114 255.255.255.255
+free-dns 172.17.12.13 255.255.255.255
+free-dns 59.51.78.210 255.255.255.255
+free-dns 202.96.199.133 255.255.255.255
+free-dns 111.8.14.18 255.255.255.255
+free-dns 211.142.211.124 255.255.255.255
+free-dns 8.8.8.8 255.255.255.255
+!
+snmp-server host 172.17.12.251 informs version 2c ruijie
+snmp-server host 172.17.12.251 traps ruijie
+snmp-server host 172.16.12.80 informs version 2c infogo
+snmp-server host 172.17.12.199 informs version 2c hnrpcsdn
+snmp-server host 172.16.12.199 traps version 2c hnrpc-ro
+snmp-server host 172.16.12.199 traps version 2c hnrpc-rw
+snmp-server host 172.16.12.199 traps version 2c hnrpc-rw udp-port 161
+snmp-server host 172.16.12.199 traps version 2c hnrpc-ro udp-port 161
+snmp-server enable traps
+snmp-server community 7 08113a1c182e00 rw
+snmp-server community 7 15420333022861174a ro
+snmp-server community 7 154203330228611752 rw
+snmp-server community 7 01294d45381f091e527d46 ro
+snmp-server community 7 01284d51271b153a0d rw
+!
+line console 0
+line vty 0 4
+ password 7 034b390a163d237d454370
+!
+end
+HNRPC_CORE-Switch#

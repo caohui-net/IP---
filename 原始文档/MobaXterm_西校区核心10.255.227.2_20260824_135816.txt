@@ -1,0 +1,1044 @@
+    ©°©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©´
+    ©¦               ? MobaXterm Professional Edition v25.4 ?               ©¦
+    ©¦               (SSH client, X server and network tools)               ©¦
+    ©¦                                                                      ©¦
+    ©¦ ? Telnet session to 10.255.227.2                                     ©¦
+    ©¦ ? Your DISPLAY is set to 172.17.12.200:0.0                           ©¦
+    ©¦ ? For more info, ctrl+click on help or visit our website.            ©¦
+    ©¸©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¼
+
+
+User Access Verification
+
+Username:admin
+Password:
+
+HNRPC_CORE_N18012>en
+
+Password:
+HNRPC_CORE_N18012#sh ru
+
+Building configuration...
+Current configuration : 21837 bytes
+
+version 11.0(4)B19P2
+hostname HNRPC_CORE_N18012
+!
+split interface FortyGigabitEthernet 1/10/41
+!
+rldp enable
+!
+ip dhcp snooping
+!
+username admin password 7 122f0b005a0e6051797c5714
+!
+no cwmp
+!
+service dhcp
+!
+ip dhcp pool vlan3998
+ option 138 ip 9.9.9.9
+ network 10.200.1.0 255.255.255.0
+ default-router 10.200.1.254
+!
+ip dhcp pool vlan3997
+ option 138 ip 9.9.9.9
+ network 10.200.2.0 255.255.255.0
+ default-router 10.200.2.254
+!
+ip dhcp pool vlan3996
+ option 138 ip 9.9.9.9
+ network 10.200.3.0 255.255.255.0
+ default-router 10.200.3.254
+!
+ip dhcp pool vlan3995
+ option 138 ip 9.9.9.9
+ network 10.200.4.0 255.255.255.0
+ default-router 10.200.4.254
+!
+ip dhcp pool vlan3994
+ option 138 ip 9.9.9.9
+ network 10.200.5.0 255.255.255.0
+ default-router 10.200.5.254
+!
+ip dhcp pool vlan3989
+ option 138 ip 9.9.9.9
+ network 10.200.10.0 255.255.255.0
+ default-router 10.200.10.254
+!
+ip dhcp pool vlan3988
+ option 138 ip 9.9.9.9
+ network 10.200.11.0 255.255.255.0
+ default-router 10.200.11.254
+!
+ip dhcp pool vlan3987
+ option 138 ip 9.9.9.9
+ network 10.200.12.0 255.255.255.0
+ default-router 10.200.12.254
+!
+ip dhcp pool vlan3986
+ option 138 ip 9.9.9.9
+ network 10.200.13.0 255.255.255.0
+ default-router 10.200.13.254
+!
+ip dhcp pool vlan3985
+ option 138 ip 9.9.9.9
+ network 10.200.14.0 255.255.255.0
+ default-router 10.200.14.254
+!
+ip dhcp pool vlan3984
+ option 138 ip 9.9.9.9
+ network 10.200.15.0 255.255.255.0
+ default-router 10.200.15.254
+!
+ip dhcp pool vlan3993
+ option 138 ip 9.9.9.9
+ network 10.200.6.0 255.255.255.0
+ default-router 10.200.6.254
+!
+ip dhcp pool vlan3992
+ option 138 ip 9.9.9.9
+ network 10.200.7.0 255.255.255.0
+ default-router 10.200.7.254
+!
+install switch 1 RG-N18012
+install switch 2 RG-N18012
+install 1/9 M18000-24GT20SFP4XS-ED
+install 1/10 M18000-24XS4QXS-DC
+install 2/9 M18000-24GT20SFP4XS-ED
+install 2/10 M18000-24XS4QXS-DC
+!
+sysmac c470.abf7.00b1
+!
+grtd
+!
+nfpp
+!
+service password-encryption
+!
+redundancy
+!
+service sequence-numbers
+logging rate-limit msc data-flow 1000
+logging userinfo command-log
+logging buffered 131072
+logging file flash:syslog
+!
+enable secret 5 $1$KJ34$qEuxxC3y0pEp4w9q
+enable service ssh-server
+!
+vlan 40
+ name duomeitijiaoshi
+!
+vlan 3601
+ name 1#SS-wx-yw
+!
+vlan 3602
+ name 2#SS-wx-yw
+!
+vlan 3603
+ name 3#SS-wx-yw
+!
+vlan 3604
+ name 4#SS-wx-yw
+!
+vlan 3605
+ name 5#SS-wx-yw
+!
+vlan 3606
+ name 6#SS-wx-yw
+!
+vlan 3609
+ name JXL-S-wx
+!
+vlan 3610
+ name ShiTang-S-wx
+!
+vlan 3611
+ name 2SXL-S-wx
+!
+vlan 3612
+ name ShiWai-S-WX-YW
+!
+vlan 3613
+ name 3SXL-S-WX-yw
+!
+vlan 3614
+ name ssq-tiyan-yw
+!
+vlan 3615
+ name jxq-tiyan-yw
+!
+vlan 3616
+ name Tiyuguan-S-WX-yw
+!
+vlan 3617
+ name Tushuguan-S-WX-yw
+!
+vlan 3632
+ name 1#SS-yx-yw
+!
+vlan 3633
+ name 2#SS-yx-yw
+!
+vlan 3634
+ name 3#SS-yx-yw
+!
+vlan 3635
+ name 4#SS-yx-yw
+!
+vlan 3636
+ name 5#SS-yx-yw
+!
+vlan 3637
+ name 6#SS-yx-yw
+!
+vlan 3644
+ name yingyeting-yx-yw
+!
+vlan 3683
+ name JXL-T-wx
+!
+vlan 3684
+ name ShiTang-T-wx
+!
+vlan 3685
+ name 2SXL-T-wx
+!
+vlan 3686
+ name 3SXL-T-WX-YW
+!
+vlan 3687
+ name ShiWai-T-wx
+!
+vlan 3689
+ name TYG-wuxian
+!
+vlan 3718
+ name YX_yw
+!
+vlan 3733
+ name 3SXL-youxian-yw
+!
+vlan 3735
+ name test-youxian-yw
+!
+vlan 3736
+ name test
+!
+vlan 3737
+ name TSG-T-yx-yw
+!
+vlan 3738
+ name TiYuGuang-T-yx-yw
+!
+vlan 3902
+ name zhinengdianbiao
+!
+vlan 3903
+ name new-guangbo
+!
+vlan 3984
+ name 6#SS-ap-manage
+!
+vlan 3985
+ name 5#SS-ap-manage
+!
+vlan 3986
+ name 4#SS-ap-manage
+!
+vlan 3987
+ name 3#SS-ap-manage
+!
+vlan 3988
+ name 2#SS-ap-manage
+!
+vlan 3989
+ name 1#SS-ap-manage
+!
+vlan 3992
+ name Tushuguan-AP-Manage
+!
+vlan 3993
+ name tiyuguan-AP-manager
+!
+vlan 3994
+ name ShiWai-ap-manage
+!
+vlan 3995
+ name SXL3-ap-manage
+!
+vlan 3996
+ name SXL2-ap-manage
+!
+vlan 3997
+ name ST-ap-manage
+!
+vlan 3998
+ name JXL-ap-manage
+!
+vlan 3999
+ name Manage
+!
+vlan 4000
+ name SSQ-Device-Manage
+!
+vlan 4080
+ name 18K-Dr2166_huliang
+!
+vlan 4081
+ name dianxin-redian-huliang
+!
+vlan 4083
+ name redian-server-manage2
+!
+vlan 4084
+ name redian-server-manage
+!
+vlan 4085
+ name Link_Old-N18k-huliang
+!
+vlan 4087
+ name neiwangmianrenzheng-hulian
+!
+vlan range 1,10,12,14,17-18,20,22,30,120,2999-3000,3714-3717,3719-3732,3901,3906,4050
+vlan range 4082,4086,4089
+!
+interface GigabitEthernet 1/9/1
+ switchport access vlan 3901
+!
+interface GigabitEthernet 1/9/2
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/9/3
+ description to yin-xin-2022
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/9/4
+ description link_DR2166-Mgt2
+ switchport access vlan 4084
+!
+interface GigabitEthernet 1/9/5
+ switchport mode trunk
+!
+interface GigabitEthernet 1/9/6
+ switchport access vlan 4084
+!
+interface GigabitEthernet 1/9/7
+ switchport access vlan 2999
+!
+interface GigabitEthernet 1/9/8
+ switchport access vlan 12
+!
+interface GigabitEthernet 1/9/9
+ description to caiwu
+ switchport access vlan 40
+!
+interface GigabitEthernet 1/9/10
+ switchport access vlan 4084
+!
+interface GigabitEthernet 1/9/11
+ description Link-255.65
+ switchport access vlan 4084
+!
+interface GigabitEthernet 1/9/12
+ switchport access vlan 4084
+!
+interface GigabitEthernet 1/9/13
+ description to SXF-fuwuqi
+ port-group 39
+!
+interface GigabitEthernet 1/9/14
+ switchport access vlan 4084
+!
+interface GigabitEthernet 1/9/15
+!
+interface GigabitEthernet 1/9/16
+ switchport access vlan 4084
+!
+interface GigabitEthernet 1/9/17
+!
+interface GigabitEthernet 1/9/18
+ switchport access vlan 3724
+!
+interface GigabitEthernet 1/9/19
+!
+interface GigabitEthernet 1/9/20
+ switchport access vlan 3999
+!
+interface GigabitEthernet 1/9/21
+!
+interface GigabitEthernet 1/9/22
+!
+interface GigabitEthernet 1/9/23
+ switchport access vlan 3635
+!
+interface GigabitEthernet 1/9/24
+!
+interface GigabitEthernet 1/9/25
+ description ??????
+ switchport mode trunk
+!
+interface GigabitEthernet 1/9/26
+ description jiangkong-hexin
+ switchport mode trunk
+ switchport trunk allowed vlan only 4086
+!
+interface GigabitEthernet 1/9/27
+ switchport access vlan 4089
+!
+interface GigabitEthernet 1/9/28
+!
+interface GigabitEthernet 1/9/29
+!
+interface GigabitEthernet 1/9/30
+ description to °å·¿
+ switchport mode trunk
+!
+interface GigabitEthernet 1/9/31
+!
+interface GigabitEthernet 1/9/32
+ switchport mode trunk
+!
+interface GigabitEthernet 1/9/33
+!
+interface GigabitEthernet 1/9/34
+ description to TYG-1F-BGT
+ switchport mode trunk
+!
+interface GigabitEthernet 1/9/35
+!
+interface GigabitEthernet 1/9/36
+!
+interface GigabitEthernet 1/9/37
+!
+interface GigabitEthernet 1/9/38
+!
+interface GigabitEthernet 1/9/39
+!
+interface GigabitEthernet 1/9/40
+!
+interface GigabitEthernet 1/9/41
+!
+interface GigabitEthernet 1/9/42
+!
+interface GigabitEthernet 1/9/43
+!
+interface GigabitEthernet 1/9/44
+ shutdown
+ switchport access vlan 4080
+!
+interface GigabitEthernet 2/9/1
+ description 255.66
+ switchport access vlan 4084
+!
+interface GigabitEthernet 2/9/2
+ description 255.65
+ switchport access vlan 4084
+!
+interface GigabitEthernet 2/9/3
+ description to xiwo-fuwuqi
+ switchport access vlan 40
+!
+interface GigabitEthernet 2/9/4
+!
+interface GigabitEthernet 2/9/5
+!
+interface GigabitEthernet 2/9/6
+ switchport access vlan 40
+!
+interface GigabitEthernet 2/9/7
+ switchport access vlan 20
+!
+interface GigabitEthernet 2/9/8
+ switchport access vlan 20
+!
+interface GigabitEthernet 2/9/9
+ switchport access vlan 20
+!
+interface GigabitEthernet 2/9/10
+ switchport access vlan 20
+!
+interface GigabitEthernet 2/9/11
+!
+interface GigabitEthernet 2/9/12
+!
+interface GigabitEthernet 2/9/13
+ description to SXF-fuwuqi
+ port-group 39
+!
+interface GigabitEthernet 2/9/14
+!
+interface GigabitEthernet 2/9/15
+!
+interface GigabitEthernet 2/9/16
+!
+interface GigabitEthernet 2/9/17
+!
+interface GigabitEthernet 2/9/18
+!
+interface GigabitEthernet 2/9/19
+!
+interface GigabitEthernet 2/9/20
+!
+interface GigabitEthernet 2/9/21
+!
+interface GigabitEthernet 2/9/22
+!
+interface GigabitEthernet 2/9/23
+!
+interface GigabitEthernet 2/9/24
+!
+interface GigabitEthernet 2/9/25
+!
+interface GigabitEthernet 2/9/26
+!
+interface GigabitEthernet 2/9/27
+!
+interface GigabitEthernet 2/9/28
+ switchport mode trunk
+!
+interface GigabitEthernet 2/9/29
+!
+interface GigabitEthernet 2/9/30
+!
+interface GigabitEthernet 2/9/31
+!
+interface GigabitEthernet 2/9/32
+!
+interface GigabitEthernet 2/9/33
+!
+interface GigabitEthernet 2/9/34
+!
+interface GigabitEthernet 2/9/35
+!
+interface GigabitEthernet 2/9/36
+!
+interface GigabitEthernet 2/9/37
+!
+interface GigabitEthernet 2/9/38
+!
+interface GigabitEthernet 2/9/39
+!
+interface GigabitEthernet 2/9/40
+!
+interface GigabitEthernet 2/9/41
+!
+interface GigabitEthernet 2/9/42
+!
+interface GigabitEthernet 2/9/43
+!
+interface GigabitEthernet 2/9/44
+!
+interface TenGigabitEthernet 1/9/45
+ switchport access vlan 4087
+!
+interface TenGigabitEthernet 1/9/46
+ description to cunchun
+ switchport mode trunk
+!
+interface TenGigabitEthernet 1/9/47
+ description to cunchun
+ switchport mode trunk
+!
+interface TenGigabitEthernet 1/9/48
+ description to cunchun
+ switchport mode trunk
+!
+interface TenGigabitEthernet 1/10/1
+ port-group 10
+!
+interface TenGigabitEthernet 1/10/2
+ port-group 11
+!
+interface TenGigabitEthernet 1/10/3
+ port-group 12
+!
+interface TenGigabitEthernet 1/10/4
+ description to TJC-guanbo
+ switchport mode trunk
+!
+interface TenGigabitEthernet 1/10/5
+ port-group 21
+!
+interface TenGigabitEthernet 1/10/6
+ port-group 22
+!
+interface TenGigabitEthernet 1/10/7
+ port-group 23
+!
+interface TenGigabitEthernet 1/10/8
+ port-group 24
+!
+interface TenGigabitEthernet 1/10/9
+ port-group 25
+!
+interface TenGigabitEthernet 1/10/10
+ port-group 26
+!
+interface TenGigabitEthernet 1/10/11
+ description to cunchu
+ switchport mode trunk
+!
+interface TenGigabitEthernet 1/10/12
+ description to TYG-HJ
+ port-group 16
+!
+interface TenGigabitEthernet 1/10/13
+ shutdown
+ switchport access vlan 4080
+!
+interface TenGigabitEthernet 1/10/14
+ description to ¼à¿ØÖÐÐÄ
+ switchport access vlan 12
+!
+interface TenGigabitEthernet 1/10/15
+ switchport access vlan 4082
+!
+interface TenGigabitEthernet 1/10/16
+ switchport access vlan 4081
+!
+interface TenGigabitEthernet 1/10/17
+ description Dr2166-neiwan2
+ port-group 100
+!
+interface TenGigabitEthernet 1/10/18
+ description Dr2166-neiwan1
+ port-group 100
+!
+interface TenGigabitEthernet 1/10/19
+ switchport access vlan 4081
+!
+interface TenGigabitEthernet 1/10/20
+ description to SXL-3
+ port-group 20
+!
+interface TenGigabitEthernet 1/10/21
+ description link_N18010_te2/1/43
+ port-group 1
+!
+interface TenGigabitEthernet 1/10/22
+ switchport mode trunk
+!
+interface TenGigabitEthernet 1/10/23
+ port-group 99
+!
+interface TenGigabitEthernet 1/10/24
+ description to dianxing
+ port-group 1
+!
+interface TenGigabitEthernet 1/10/25
+!merged to interface FortyGigabitEthernet 1/10/41
+!
+interface TenGigabitEthernet 1/10/26
+!merged to interface FortyGigabitEthernet 1/10/41
+!
+interface TenGigabitEthernet 1/10/27
+!merged to interface FortyGigabitEthernet 1/10/41
+!
+interface TenGigabitEthernet 1/10/28
+!merged to interface FortyGigabitEthernet 1/10/41
+!
+interface TenGigabitEthernet 1/10/29
+!merged to interface FortyGigabitEthernet 1/10/42
+!
+interface TenGigabitEthernet 1/10/30
+!merged to interface FortyGigabitEthernet 1/10/42
+!
+interface TenGigabitEthernet 1/10/31
+!merged to interface FortyGigabitEthernet 1/10/42
+!
+interface TenGigabitEthernet 1/10/32
+!merged to interface FortyGigabitEthernet 1/10/42
+!
+interface TenGigabitEthernet 1/10/33
+!merged to interface FortyGigabitEthernet 1/10/43
+!
+interface TenGigabitEthernet 1/10/34
+!merged to interface FortyGigabitEthernet 1/10/43
+!
+interface TenGigabitEthernet 1/10/35
+!merged to interface FortyGigabitEthernet 1/10/43
+!
+interface TenGigabitEthernet 1/10/36
+!merged to interface FortyGigabitEthernet 1/10/43
+!
+interface TenGigabitEthernet 1/10/37
+!merged to interface FortyGigabitEthernet 1/10/44
+!
+interface TenGigabitEthernet 1/10/38
+!merged to interface FortyGigabitEthernet 1/10/44
+!
+interface TenGigabitEthernet 1/10/39
+!merged to interface FortyGigabitEthernet 1/10/44
+!
+interface TenGigabitEthernet 1/10/40
+!merged to interface FortyGigabitEthernet 1/10/44
+!
+interface TenGigabitEthernet 2/9/45
+ port-group 40 mode active
+!
+interface TenGigabitEthernet 2/9/46
+ port-group 40 mode active
+!
+interface TenGigabitEthernet 2/9/47
+ port-group 42 mode active
+!
+interface TenGigabitEthernet 2/9/48
+ port-group 42 mode active
+!
+interface TenGigabitEthernet 2/10/1
+ port-group 10
+!
+interface TenGigabitEthernet 2/10/2
+ port-group 11
+!
+interface TenGigabitEthernet 2/10/3
+ shutdown
+ port-group 12
+!
+interface TenGigabitEthernet 2/10/4
+ shutdown
+!
+interface TenGigabitEthernet 2/10/5
+ port-group 21
+!
+interface TenGigabitEthernet 2/10/6
+ port-group 22
+!
+interface TenGigabitEthernet 2/10/7
+ port-group 23
+!
+interface TenGigabitEthernet 2/10/8
+ shutdown
+!
+interface TenGigabitEthernet 2/10/9
+ port-group 25
+!
+interface TenGigabitEthernet 2/10/10
+ port-group 26
+!
+interface TenGigabitEthernet 2/10/11
+!
+interface TenGigabitEthernet 2/10/12
+ description to TYG-HJ
+ port-group 16
+!
+interface TenGigabitEthernet 2/10/13
+ port-group 28
+!
+interface TenGigabitEthernet 2/10/14
+ description to 3SXL-3L
+ port-group 28
+!
+interface TenGigabitEthernet 2/10/15
+ port-group 28
+!
+interface TenGigabitEthernet 2/10/16
+ description to SXL-HJ
+ port-group 20
+!
+interface TenGigabitEthernet 2/10/17
+ switchport access vlan 40
+!
+interface TenGigabitEthernet 2/10/18
+ switchport protected
+ switchport mode trunk
+!
+interface TenGigabitEthernet 2/10/19
+ description cunchu
+ switchport mode trunk
+!
+interface TenGigabitEthernet 2/10/20
+ description to cunchu
+ switchport mode trunk
+!
+interface TenGigabitEthernet 2/10/21
+ description to cunchu
+ switchport mode trunk
+!
+interface TenGigabitEthernet 2/10/22
+ description to cunchu
+ switchport mode trunk
+!
+interface TenGigabitEthernet 2/10/23
+ port-group 99
+!
+interface TenGigabitEthernet 2/10/24
+ no switchport
+ ip address 10.255.227.5 255.255.255.252
+!
+interface TenGigabitEthernet 2/10/25
+!merged to interface FortyGigabitEthernet 2/10/41
+!
+interface TenGigabitEthernet 2/10/26
+!merged to interface FortyGigabitEthernet 2/10/41
+!
+interface TenGigabitEthernet 2/10/27
+!merged to interface FortyGigabitEthernet 2/10/41
+!
+interface TenGigabitEthernet 2/10/28
+!merged to interface FortyGigabitEthernet 2/10/41
+!
+interface TenGigabitEthernet 2/10/29
+!merged to interface FortyGigabitEthernet 2/10/42
+!
+interface TenGigabitEthernet 2/10/30
+!merged to interface FortyGigabitEthernet 2/10/42
+!
+interface TenGigabitEthernet 2/10/31
+!merged to interface FortyGigabitEthernet 2/10/42
+!
+interface TenGigabitEthernet 2/10/32
+!merged to interface FortyGigabitEthernet 2/10/42
+!
+interface TenGigabitEthernet 2/10/33
+!merged to interface FortyGigabitEthernet 2/10/43
+!
+interface TenGigabitEthernet 2/10/34
+!merged to interface FortyGigabitEthernet 2/10/43
+!
+interface TenGigabitEthernet 2/10/35
+!merged to interface FortyGigabitEthernet 2/10/43
+!
+interface TenGigabitEthernet 2/10/36
+!merged to interface FortyGigabitEthernet 2/10/43
+!
+interface TenGigabitEthernet 2/10/37
+!merged to interface FortyGigabitEthernet 2/10/44
+!
+interface TenGigabitEthernet 2/10/38
+!merged to interface FortyGigabitEthernet 2/10/44
+!
+interface TenGigabitEthernet 2/10/39
+!merged to interface FortyGigabitEthernet 2/10/44
+!
+interface TenGigabitEthernet 2/10/40
+!merged to interface FortyGigabitEthernet 2/10/44
+!
+interface FortyGigabitEthernet 1/10/41
+!
+interface FortyGigabitEthernet 1/10/42
+ port-group 210
+!
+interface FortyGigabitEthernet 1/10/43
+!
+interface FortyGigabitEthernet 1/10/44
+!
+interface FortyGigabitEthernet 2/10/41
+!
+interface FortyGigabitEthernet 2/10/42
+ port-group 210
+!
+interface FortyGigabitEthernet 2/10/43
+!
+interface FortyGigabitEthernet 2/10/44
+!
+interface AggregatePort 1
+ description liangxiaohulian_new-old
+ switchport mode trunk
+ switchport trunk allowed vlan only 10,12,14,20,30,40,2999,3683-3692,3714-3733,3737-3738,3901-3904,3906,3999-4001,4085-4086
+ ip dhcp snooping trust
+!
+interface AggregatePort 10
+ switchport protected
+ description to JXL
+ switchport mode trunk
+ switchport trunk allowed vlan only 12,30,40,3609,3683,3714-3720,3998-3999
+!
+interface AggregatePort 11
+ switchport protected
+ description Link_????£¤???
+ switchport mode trunk
+ switchport trunk allowed vlan only 12,40,3611-3612,3685,3687,3721-3732,3994,3996,3999
+!
+interface AggregatePort 12
+ switchport protected
+ description to shi-tang
+ switchport mode trunk
+ switchport trunk allowed vlan only 12,17,40,3610,3684,3718,3901,3997,3999
+!
+interface AggregatePort 13
+!
+interface AggregatePort 16
+ description Link_TYG_3F_HJ
+ switchport mode trunk
+!
+interface AggregatePort 20
+ switchport protected
+ description to SXL-3
+ switchport mode trunk
+!
+interface AggregatePort 21
+ switchport protected
+ description Link_1#??????
+ switchport mode trunk
+ switchport trunk allowed vlan only 12,3601,3612,3632,3687,3901-3903,3989,3994,3999-4000
+!
+interface AggregatePort 22
+ switchport protected
+ description Link_2#??????
+ switchport mode trunk
+ switchport trunk allowed vlan only 10,12,3602,3612,3633,3687,3719,3901-3903,3988,3994,3999-4000
+!
+interface AggregatePort 23
+ switchport protected
+ description Link_3#??????
+ switchport mode trunk
+ switchport trunk allowed vlan only 10,12,40,3603,3634,3644,3725,3732,3735-3736,3901-3903,3987,3994,3999-4000
+!
+interface AggregatePort 24
+ switchport protected
+ description Link_4#??????
+ switchport mode trunk
+!
+interface AggregatePort 25
+ switchport protected
+ description Link_5#??????
+ switchport mode trunk
+ switchport trunk allowed vlan only 12,40,3605,3636,3901-3903,3985,3994,3999-4000
+!
+interface AggregatePort 26
+ switchport protected
+ description Link_6#??????
+ switchport mode trunk
+ switchport trunk allowed vlan only 12,40,3606,3637,3719,3901-3903,3984,3994,3999-4000
+!
+interface AggregatePort 28
+ description to ceshi
+ switchport mode trunk
+!
+interface AggregatePort 39
+ description to SXF-fuwuqi
+ switchport mode trunk
+!
+interface AggregatePort 40
+ description to fuwuqi-ruijie
+ switchport mode trunk
+ switchport trunk native vlan 20
+!
+interface AggregatePort 42
+ description to fuwuqi-H3C
+ switchport mode trunk
+ switchport trunk native vlan 20
+!
+interface AggregatePort 99
+ description Link-WS6816
+ switchport mode trunk
+!
+interface AggregatePort 100
+ switchport mode trunk
+ switchport trunk allowed vlan only 3601-3617,3632-3644,3735,3999,4080,4083-4084
+ ip dhcp snooping trust
+!
+interface AggregatePort 110
+!
+interface AggregatePort 200
+ switchport access vlan 4080
+!
+interface AggregatePort 210
+ switchport mode trunk
+ switchport trunk allowed vlan only 40,3616-3617,3689,3737-3738,3992-3993,3999
+!
+interface VLAN 3736
+ ip address 10.206.0.254 255.255.255.0
+!
+interface VLAN 3984
+ ip address 10.200.15.254 255.255.255.0
+!
+interface VLAN 3985
+ ip address 10.200.14.254 255.255.255.0
+!
+interface VLAN 3986
+ ip address 10.200.13.254 255.255.255.0
+!
+interface VLAN 3987
+ ip address 10.200.12.254 255.255.255.0
+!
+interface VLAN 3988
+ ip address 10.200.11.254 255.255.255.0
+!
+interface VLAN 3989
+ ip address 10.200.10.254 255.255.255.0
+!
+interface VLAN 3992
+ ip address 10.200.7.254 255.255.255.0
+!
+interface VLAN 3993
+ ip address 10.200.6.254 255.255.255.0
+!
+interface VLAN 3994
+ ip address 10.200.5.254 255.255.255.0
+!
+interface VLAN 3995
+ ip address 10.200.4.254 255.255.255.0
+!
+interface VLAN 3996
+ ip address 10.200.3.254 255.255.255.0
+!
+interface VLAN 3997
+ ip address 10.200.2.254 255.255.255.0
+!
+interface VLAN 3998
+ ip address 10.200.1.254 255.255.255.0
+!
+interface VLAN 3999
+ description Mange
+ ip address 10.255.1.254 255.255.254.0
+!
+interface VLAN 4080
+ ip address 10.255.255.2 255.255.255.248
+!
+interface VLAN 4081
+ ip address 10.255.255.14 255.255.255.248
+!
+interface VLAN 4082
+ ip address 10.255.255.22 255.255.255.248
+!
+interface VLAN 4084
+ ip address 10.255.255.69 255.255.255.240
+ arp timeout 300
+!
+interface VLAN 4085
+ ip address 10.255.227.2 255.255.255.252
+!
+interface VLAN 4087
+ ip address 10.255.255.81 255.255.255.248
+!
+interface Mgmt 1/0
+!
+interface Mgmt 2/0
+!
+switch virtual domain 1
+!
+ip route 0.0.0.0 0.0.0.0 10.255.227.1
+ip route 9.9.9.9 255.255.255.255 10.255.0.7
+ip route 10.0.10.0 255.255.255.0 10.255.227.6
+ip route 10.0.12.0 255.255.255.0 10.255.227.6
+ip route 10.0.220.0 255.255.252.0 10.255.227.6
+ip route 10.1.0.0 255.255.0.0 10.255.227.6
+ip route 10.2.0.0 255.255.0.0 10.255.227.6
+ip route 10.3.0.0 255.255.0.0 10.255.227.6
+ip route 10.4.0.0 255.255.0.0 10.255.227.6
+ip route 10.11.0.0 255.255.0.0 10.255.227.1
+ip route 10.12.0.0 255.252.0.0 10.255.227.1
+ip route 10.16.0.0 255.254.0.0 10.255.227.1
+ip route 10.201.0.0 255.255.0.0 10.255.255.78
+ip route 10.202.0.0 255.255.0.0 10.255.255.78
+ip route 10.204.22.0 255.255.255.0 10.255.255.78
+ip route 10.206.0.0 255.255.255.0 10.255.255.82
+ip route 172.16.0.0 255.255.0.0 10.255.227.1
+ip route 172.16.20.0 255.255.255.0 10.255.227.1
+ip route 172.17.12.0 255.255.255.0 10.255.227.1
+!
+snmp-server enable traps
+snmp-server community 7 024b4d250805731138 rw
+snmp-server community 7 024b4d250805731120 ro
+!
+line console 0
+line vty 0 4
+ session-timeout 5
+ login local
+!
+end
+HNRPC_CORE_N18012#
